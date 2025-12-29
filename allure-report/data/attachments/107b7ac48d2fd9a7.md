@@ -1,0 +1,144 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - main [ref=e4]:
+    - generic [ref=e5]:
+      - img "Facebook" [ref=e7]
+      - generic [ref=e8]:
+        - generic [ref=e11]: Log in to Facebook
+        - generic [ref=e14]:
+          - generic [ref=e15]:
+            - textbox "Email address or phone number" [active] [ref=e16]
+            - generic [ref=e17]:
+              - text: The email address or mobile number you entered isn't connected to an account.
+              - link "Find your account and log in." [ref=e18] [cursor=pointer]:
+                - /url: https://facebook.com/login/identify/
+          - textbox "Password" [ref=e22]
+          - button "Log in" [ref=e24] [cursor=pointer]
+          - link "Forgotten password?" [ref=e27] [cursor=pointer]:
+            - /url: https://www.facebook.com/recover/initiate/?ars=facebook_login&cancel_lara_pswd=0
+  - generic [ref=e30]:
+    - list [ref=e31]:
+      - listitem [ref=e32]: English (UK)
+      - listitem [ref=e33]:
+        - link "हिन्दी" [ref=e34] [cursor=pointer]:
+          - /url: https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzY2NzIzNjMxLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&next
+      - listitem [ref=e35]:
+        - link "اردو" [ref=e36] [cursor=pointer]:
+          - /url: https://hi-in.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzY2NzIzNjMxLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&next
+      - listitem [ref=e37]:
+        - link "தமிழ்" [ref=e38] [cursor=pointer]:
+          - /url: https://ur-pk.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzY2NzIzNjMxLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&next
+      - listitem [ref=e39]:
+        - link "বাংলা" [ref=e40] [cursor=pointer]:
+          - /url: https://ta-in.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzY2NzIzNjMxLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&next
+      - listitem [ref=e41]:
+        - link "मराठी" [ref=e42] [cursor=pointer]:
+          - /url: https://bn-in.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzY2NzIzNjMxLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&next
+      - listitem [ref=e43]:
+        - link "తెలుగు" [ref=e44] [cursor=pointer]:
+          - /url: https://mr-in.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzY2NzIzNjMxLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&next
+      - listitem [ref=e45]:
+        - link "ગુજરાતી" [ref=e46] [cursor=pointer]:
+          - /url: https://te-in.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzY2NzIzNjMxLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&next
+      - listitem [ref=e47]:
+        - link "ಕನ್ನಡ" [ref=e48] [cursor=pointer]:
+          - /url: https://gu-in.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzY2NzIzNjMxLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&next
+      - listitem [ref=e49]:
+        - link "മലയാളം" [ref=e50] [cursor=pointer]:
+          - /url: https://kn-in.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzY2NzIzNjMxLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&next
+      - listitem [ref=e51]:
+        - link "Español" [ref=e52] [cursor=pointer]:
+          - /url: https://ml-in.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzY2NzIzNjMxLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&next
+      - listitem [ref=e53]:
+        - button "Show more languages" [ref=e54] [cursor=pointer]
+    - contentinfo "Facebook site links" [ref=e57]:
+      - list [ref=e58]:
+        - listitem [ref=e59]:
+          - link "Sign up" [ref=e60] [cursor=pointer]:
+            - /url: /reg/
+        - listitem [ref=e61]:
+          - link "Log in" [ref=e62] [cursor=pointer]:
+            - /url: /login/
+        - listitem [ref=e63]:
+          - link "Messenger" [ref=e64] [cursor=pointer]:
+            - /url: https://messenger.com/
+        - listitem [ref=e65]:
+          - link "Facebook Lite" [ref=e66] [cursor=pointer]:
+            - /url: /lite/
+        - listitem [ref=e67]:
+          - link "Video" [ref=e68] [cursor=pointer]:
+            - /url: https://www.facebook.com/watch/
+        - listitem [ref=e69]:
+          - link "Meta Pay" [ref=e70] [cursor=pointer]:
+            - /url: https://about.meta.com/technologies/meta-pay
+        - listitem [ref=e71]:
+          - link "Meta Store" [ref=e72] [cursor=pointer]:
+            - /url: https://www.meta.com/
+        - listitem [ref=e73]:
+          - link "Meta Quest" [ref=e74] [cursor=pointer]:
+            - /url: https://www.meta.com/quest/
+        - listitem [ref=e75]:
+          - link "Ray-Ban Meta" [ref=e76] [cursor=pointer]:
+            - /url: https://www.meta.com/smart-glasses/
+        - listitem [ref=e77]:
+          - link "Meta AI" [ref=e78] [cursor=pointer]:
+            - /url: https://www.meta.ai/
+        - listitem [ref=e79]:
+          - link "Meta AI more content" [ref=e80] [cursor=pointer]:
+            - /url: https://www.meta.ai/pages/dodge-caravan-minivan-revolutionizing-family-vehicle/?utm_source=foa_web_footer
+        - listitem [ref=e81]:
+          - link "Instagram" [ref=e82] [cursor=pointer]:
+            - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F&h=AT2Cr0_oH1AByjcOQ8Jq_hF7vwWPVv-5NgT0yiKhKHgSSjFRwcCM8Np3Wnor40XqIcxL_NYpPvT-yn6sUouvoSUViqZcIPAH8T98Xx3bEU2OMvreMoORtKyu7bR_O7hIWRC5JzmBuPnTH30GEuoSoBbW8qOTWCi5SU0png
+        - listitem [ref=e83]:
+          - link "Threads" [ref=e84] [cursor=pointer]:
+            - /url: https://www.threads.com/
+        - listitem [ref=e85]:
+          - link "Voting Information Centre" [ref=e86] [cursor=pointer]:
+            - /url: /votinginformationcenter/?entry_point=c2l0ZQ%3D%3D
+        - listitem [ref=e87]:
+          - link "Privacy Policy" [ref=e88] [cursor=pointer]:
+            - /url: /privacy/policy/?entry_point=facebook_page_footer
+        - listitem [ref=e89]:
+          - link "Privacy Centre" [ref=e90] [cursor=pointer]:
+            - /url: /privacy/center/?entry_point=facebook_page_footer
+        - listitem [ref=e91]:
+          - link "About" [ref=e92] [cursor=pointer]:
+            - /url: https://about.meta.com/
+        - listitem [ref=e93]:
+          - link "Create ad" [ref=e94] [cursor=pointer]:
+            - /url: /ad_campaign/landing.php?placement=pflo&campaign_id=402047449186&nav_source=unknown&extra_1=auto
+        - listitem [ref=e95]:
+          - link "Create Page" [ref=e96] [cursor=pointer]:
+            - /url: /pages/create/?ref_type=site_footer
+        - listitem [ref=e97]:
+          - link "Developers" [ref=e98] [cursor=pointer]:
+            - /url: https://developers.facebook.com/?ref=pf
+        - listitem [ref=e99]:
+          - link "Careers" [ref=e100] [cursor=pointer]:
+            - /url: /careers/?ref=pf
+        - listitem [ref=e101]:
+          - link "Cookies" [ref=e102] [cursor=pointer]:
+            - /url: /policies/cookies/
+        - listitem [ref=e103]:
+          - link "AdChoices" [ref=e104] [cursor=pointer]:
+            - /url: https://www.facebook.com/help/568137493302217
+            - text: AdChoices
+        - listitem [ref=e106]:
+          - link "Terms" [ref=e107] [cursor=pointer]:
+            - /url: /policies?ref=pf
+        - listitem [ref=e108]:
+          - link "Help" [ref=e109] [cursor=pointer]:
+            - /url: /help/?ref=pf
+        - listitem [ref=e110]:
+          - link "Contact uploading and non-users" [ref=e111] [cursor=pointer]:
+            - /url: https://www.facebook.com/help/637205020878504
+        - listitem:
+          - link "Settings" [ref=e112] [cursor=pointer]:
+            - /url: /settings
+        - listitem:
+          - link "Activity log" [ref=e113] [cursor=pointer]:
+            - /url: /allactivity?privacy_source=activity_log_top_menu
+    - generic [ref=e115]: Meta © 2025
+```

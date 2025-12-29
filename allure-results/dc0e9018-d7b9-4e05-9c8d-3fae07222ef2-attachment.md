@@ -1,0 +1,1211 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "Guide" [ref=e9] [cursor=pointer]:
+          - generic [ref=e12]:
+            - img
+        - generic [ref=e13]:
+          - link "YouTube Home" [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e19]:
+              - img
+          - generic [ref=e20]: IN
+        - button "Skip navigation" [ref=e24] [cursor=pointer]:
+          - generic [ref=e25]: Skip navigation
+      - generic [ref=e29]:
+        - search [ref=e30]:
+          - generic [ref=e31]:
+            - combobox "Search" [expanded] [ref=e33]: JavaScript by Testers Talk
+            - button "Clear search query" [ref=e35] [cursor=pointer]:
+              - generic [ref=e38]:
+                - img
+          - button "Search" [ref=e42] [cursor=pointer]:
+            - generic [ref=e45]:
+              - img
+        - generic [ref=e47]:
+          - button "Search with your voice" [ref=e49] [cursor=pointer]:
+            - generic [ref=e53]:
+              - img
+          - tooltip "tooltip"
+      - generic [ref=e58]:
+        - button "Settings" [ref=e63] [cursor=pointer]:
+          - generic [ref=e66]:
+            - img
+        - link "Sign in" [ref=e69] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fwatch%253Fv%253DACUMZ3OkExQ%2526list%253DPLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&hl=en&ec=65620
+          - generic [ref=e73]:
+            - img
+          - generic [ref=e74]: Sign in
+  - generic [ref=e78]:
+    - main [ref=e79]:
+      - generic [ref=e80]:
+        - generic [ref=e82]:
+          - complementary [ref=e89]:
+            - generic "YouTube Video Player" [ref=e92]:
+              - button "Channel watermark" [ref=e96] [cursor=pointer]:
+                - img "Channel watermark" [ref=e97]
+              - generic [ref=e100]:
+                - generic [ref=e101] [cursor=pointer]:
+                  - slider "Seek slider" [ref=e102]
+                  - generic:
+                    - generic:
+                      - generic:
+                        - slider "Click or scroll the panel for the precise seeking."
+                - generic [ref=e254]:
+                  - generic [ref=e255]:
+                    - button "Pause (k)" [ref=e256] [cursor=pointer]:
+                      - img
+                    - button "Previous (SHIFT+p)" [ref=e257] [cursor=pointer]:
+                      - img
+                    - button "Next (SHIFT+n)" [ref=e258] [cursor=pointer]:
+                      - img
+                    - generic [ref=e259]:
+                      - button "Mute (m)" [ref=e261] [cursor=pointer]:
+                        - img
+                      - slider "Volume"
+                    - button "0 Minutes 3 Seconds of 4 Hours 30 Minutes 58 Seconds" [ref=e265] [cursor=pointer]: 0:03 / 4:30:58
+                    - button "JavaScript Tutorial for beginners" [ref=e267] [cursor=pointer]:
+                      - generic "JavaScript Tutorial for beginners" [ref=e268]
+                      - generic [ref=e269]:
+                        - img
+                  - generic [ref=e270]:
+                    - generic [ref=e271]:
+                      - button "Subtitles/closed captions (c)" [ref=e272] [cursor=pointer]:
+                        - generic [ref=e273]:
+                          - img
+                      - button "Settings" [ref=e274] [cursor=pointer]:
+                        - img
+                    - generic [ref=e275]:
+                      - button "Theater mode (t)" [ref=e276] [cursor=pointer]:
+                        - img
+                      - button "Full screen (f)" [ref=e277] [cursor=pointer]:
+                        - img
+          - generic [ref=e278]:
+            - generic [ref=e280]:
+              - heading "JavaScript Tutorial Full Course | JavaScript Tutorial For Beginners" [level=1] [ref=e282]
+              - generic [ref=e283]:
+                - generic [ref=e284]:
+                  - generic [ref=e285]:
+                    - link [ref=e286] [cursor=pointer]:
+                      - /url: /@testerstalk
+                    - generic [ref=e288]:
+                      - generic "Testers Talk" [ref=e292]:
+                        - link "Testers Talk" [ref=e293] [cursor=pointer]:
+                          - /url: /@testerstalk
+                      - generic "27.5 thousand subscribers" [ref=e294]: 27.5K subscribers
+                  - generic [ref=e298]:
+                    - button "Subscribe to Testers Talk." [ref=e300] [cursor=pointer]:
+                      - generic [ref=e301]: Subscribe
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img
+                      - generic:
+                        - img
+                - generic [ref=e308]:
+                  - generic [ref=e309]:
+                    - generic [ref=e313]:
+                      - button "like this video along with 129 other people" [ref=e317] [cursor=pointer]:
+                        - generic [ref=e321]:
+                          - img
+                        - generic [ref=e322]: "129"
+                      - button "Dislike this video" [ref=e329] [cursor=pointer]:
+                        - generic [ref=e333]:
+                          - img
+                    - button "Share" [ref=e339] [cursor=pointer]:
+                      - generic [ref=e343]:
+                        - img
+                      - generic [ref=e344]: Share
+                  - generic [ref=e348]:
+                    - button "Save to playlist" [ref=e351] [cursor=pointer]:
+                      - generic [ref=e355]:
+                        - img
+                      - generic [ref=e356]: Save
+                    - generic [ref=e361]:
+                      - button "Download" [ref=e363] [cursor=pointer]:
+                        - generic [ref=e367]:
+                          - img
+                        - generic [ref=e368]: Download
+                      - tooltip "tooltip"
+                  - button "More actions" [ref=e373] [cursor=pointer]:
+                    - generic [ref=e377]:
+                      - img
+              - generic [ref=e383] [cursor=pointer]:
+                - generic [ref=e384]:
+                  - generic [ref=e386]:
+                    - text: 11K views 2 years ago
+                    - link "#bdd" [ref=e387]:
+                      - /url: /hashtag/bdd
+                    - link "#qa" [ref=e388]:
+                      - /url: /hashtag/qa
+                    - link "#automationtesting" [ref=e389]:
+                      - /url: /hashtag/automationtesting
+                  - tooltip "tooltip"
+                - generic [ref=e390]:
+                  - generic [ref=e391]:
+                    - generic [ref=e394]:
+                      - text: JavaScript Tutorial For Beginners | JavaScript Full Course | JavaScript Tutorial Course
+                      - link "#javascript" [ref=e396]:
+                        - /url: /hashtag/javascript
+                      - link "#tutorial" [ref=e398]:
+                        - /url: /hashtag/tutorial
+                      - link "#fullcourse" [ref=e400]:
+                        - /url: /hashtag/fullcourse
+                      - link "#programming" [ref=e402]:
+                        - /url: /hashtag/programming
+                      - link "#course" [ref=e404]:
+                        - /url: /hashtag/course
+                      - link "#beginners" [ref=e406]:
+                        - /url: /hashtag/beginners
+                      - text: latest JavaScript Tutorial Full Course
+                    - generic: …
+                  - button "...more" [ref=e407]
+            - text: •
+        - generic [ref=e482]:
+          - generic [ref=e484]:
+            - generic [ref=e486]:
+              - generic [ref=e487]:
+                - generic [ref=e488]:
+                  - heading "JavaScript by Testers Talk☑️" [level=3] [ref=e489]:
+                    - generic "JavaScript by Testers Talk☑️" [ref=e490]:
+                      - link "JavaScript by Testers Talk☑️" [ref=e491] [cursor=pointer]:
+                        - /url: /playlist?list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB
+                  - generic [ref=e492]:
+                    - generic "Testers Talk" [ref=e493]:
+                      - link "Testers Talk" [ref=e494] [cursor=pointer]:
+                        - /url: /@testerstalk
+                    - generic [ref=e495]:
+                      - text: "-"
+                      - generic [ref=e496]: 1 / 38
+                - button "Collapse" [ref=e498] [cursor=pointer]:
+                  - generic [ref=e501]:
+                    - img
+              - generic [ref=e502]:
+                - generic [ref=e506]:
+                  - generic [ref=e509]:
+                    - button "Loop playlist" [ref=e511] [cursor=pointer]:
+                      - generic [ref=e515]:
+                        - img
+                    - tooltip "tooltip"
+                  - generic [ref=e519]:
+                    - button "Shuffle playlist" [ref=e521] [cursor=pointer]:
+                      - generic [ref=e525]:
+                        - img
+                    - tooltip "tooltip"
+                - button "Action menu" [ref=e533] [cursor=pointer]:
+                  - generic [ref=e536]:
+                    - img
+            - generic [ref=e537]:
+              - generic [ref=e538]:
+                - link "JavaScript Tutorial Full Course | JavaScript Tutorial For Beginners 4 hours, 30 minutes Testers Talk" [ref=e539] [cursor=pointer]:
+                  - /url: /watch?v=ACUMZ3OkExQ&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=1&pp=iAQB
+                  - generic [ref=e540]:
+                    - generic [ref=e545]:
+                      - img
+                    - link [ref=e548]:
+                      - /url: /watch?v=ACUMZ3OkExQ&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=1&pp=iAQB
+                      - img [ref=e552]:
+                        - generic [ref=e553]: 4:30:59
+                      - generic:
+                        - generic:
+                          - img
+                    - generic [ref=e554]:
+                      - heading "JavaScript Tutorial Full Course | JavaScript Tutorial For Beginners 4 hours, 30 minutes" [level=4] [ref=e555]:
+                        - generic "JavaScript Tutorial Full Course | JavaScript Tutorial For Beginners 4 hours, 30 minutes" [ref=e556]: JavaScript Tutorial Full Course | JavaScript Tutorial For Beginners
+                      - generic [ref=e558]: Testers Talk
+                - button "Action menu" [ref=e562] [cursor=pointer]:
+                  - generic [ref=e565]:
+                    - img
+              - generic [ref=e566]:
+                - link "2 JavaScript Tutorial For Beginners Chapter01 1 hour, 4 minutes Testers Talk" [ref=e567] [cursor=pointer]:
+                  - /url: /watch?v=X46I88W6uIE&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=2&pp=iAQB0gcJCU0KAYcqIYzv
+                  - generic [ref=e568]:
+                    - generic [ref=e570]: "2"
+                    - link [ref=e573]:
+                      - /url: /watch?v=X46I88W6uIE&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=2&pp=iAQB0gcJCU0KAYcqIYzv
+                      - img [ref=e577]:
+                        - generic [ref=e578]: 1:04:29
+                      - generic:
+                        - generic:
+                          - img
+                    - generic [ref=e579]:
+                      - heading "JavaScript Tutorial For Beginners Chapter01 1 hour, 4 minutes" [level=4] [ref=e580]:
+                        - generic "JavaScript Tutorial For Beginners Chapter01 1 hour, 4 minutes" [ref=e581]: JavaScript Tutorial For Beginners Chapter01
+                      - generic [ref=e583]: Testers Talk
+                - button "Action menu" [ref=e587] [cursor=pointer]:
+                  - generic [ref=e590]:
+                    - img
+              - generic [ref=e591]:
+                - link "3 JavaScript Tutorial For Beginners Chapter02 40 minutes Testers Talk" [ref=e592] [cursor=pointer]:
+                  - /url: /watch?v=F53-G9XkZ0E&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=3&pp=iAQB
+                  - generic [ref=e593]:
+                    - generic [ref=e595]: "3"
+                    - link [ref=e598]:
+                      - /url: /watch?v=F53-G9XkZ0E&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=3&pp=iAQB
+                      - img [ref=e602]:
+                        - generic [ref=e603]: 40:36
+                      - generic:
+                        - generic:
+                          - img
+                    - generic [ref=e604]:
+                      - heading "JavaScript Tutorial For Beginners Chapter02 40 minutes" [level=4] [ref=e605]:
+                        - generic "JavaScript Tutorial For Beginners Chapter02 40 minutes" [ref=e606]: JavaScript Tutorial For Beginners Chapter02
+                      - generic [ref=e608]: Testers Talk
+                - button "Action menu" [ref=e612] [cursor=pointer]:
+                  - generic [ref=e615]:
+                    - img
+              - generic [ref=e616]:
+                - link "4 JavaScript Tutorial For Beginners Chapter03 59 minutes Testers Talk" [ref=e617] [cursor=pointer]:
+                  - /url: /watch?v=PneUCE97lQ8&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=4&pp=iAQB0gcJCU0KAYcqIYzv
+                  - generic [ref=e618]:
+                    - generic [ref=e620]: "4"
+                    - link [ref=e623]:
+                      - /url: /watch?v=PneUCE97lQ8&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=4&pp=iAQB0gcJCU0KAYcqIYzv
+                      - img [ref=e627]:
+                        - generic [ref=e628]: 59:36
+                      - generic:
+                        - generic:
+                          - img
+                    - generic [ref=e629]:
+                      - heading "JavaScript Tutorial For Beginners Chapter03 59 minutes" [level=4] [ref=e630]:
+                        - generic "JavaScript Tutorial For Beginners Chapter03 59 minutes" [ref=e631]: JavaScript Tutorial For Beginners Chapter03
+                      - generic [ref=e633]: Testers Talk
+                - button "Action menu" [ref=e637] [cursor=pointer]:
+                  - generic [ref=e640]:
+                    - img
+              - generic [ref=e641]:
+                - link "5 JavaScript Tutorial For Beginners Chapter04 50 minutes Testers Talk" [ref=e642] [cursor=pointer]:
+                  - /url: /watch?v=HgoNPWMr3mU&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=5&pp=iAQB
+                  - generic [ref=e643]:
+                    - generic [ref=e645]: "5"
+                    - link [ref=e648]:
+                      - /url: /watch?v=HgoNPWMr3mU&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=5&pp=iAQB
+                      - img [ref=e652]:
+                        - generic [ref=e653]: 50:43
+                      - generic:
+                        - generic:
+                          - img
+                    - generic [ref=e654]:
+                      - heading "JavaScript Tutorial For Beginners Chapter04 50 minutes" [level=4] [ref=e655]:
+                        - generic "JavaScript Tutorial For Beginners Chapter04 50 minutes" [ref=e656]: JavaScript Tutorial For Beginners Chapter04
+                      - generic [ref=e658]: Testers Talk
+                - button "Action menu" [ref=e662] [cursor=pointer]:
+                  - generic [ref=e665]:
+                    - img
+              - generic [ref=e666]:
+                - link "6 JavaScript Tutorial For Beginners Chapter05 55 minutes Testers Talk" [ref=e667] [cursor=pointer]:
+                  - /url: /watch?v=lWDC8VF3PtM&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=6&pp=iAQB
+                  - generic [ref=e668]:
+                    - generic [ref=e670]: "6"
+                    - link [ref=e673]:
+                      - /url: /watch?v=lWDC8VF3PtM&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=6&pp=iAQB
+                      - img [ref=e677]:
+                        - generic [ref=e678]: 55:36
+                      - generic:
+                        - generic:
+                          - img
+                    - generic [ref=e679]:
+                      - heading "JavaScript Tutorial For Beginners Chapter05 55 minutes" [level=4] [ref=e680]:
+                        - generic "JavaScript Tutorial For Beginners Chapter05 55 minutes" [ref=e681]: JavaScript Tutorial For Beginners Chapter05
+                      - generic [ref=e683]: Testers Talk
+                - button "Action menu" [ref=e687] [cursor=pointer]:
+                  - generic [ref=e690]:
+                    - img
+              - generic [ref=e691]:
+                - 'link "7 JavaScript #1 Chapter01 Overview 3 minutes, 8 seconds Testers Talk" [ref=e692] [cursor=pointer]':
+                  - /url: /watch?v=4LgE1uhhJ3U&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=7&pp=iAQB0gcJCU0KAYcqIYzv
+                  - generic [ref=e693]:
+                    - generic [ref=e695]: "7"
+                    - link [ref=e698]:
+                      - /url: /watch?v=4LgE1uhhJ3U&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=7&pp=iAQB0gcJCU0KAYcqIYzv
+                      - img [ref=e702]:
+                        - generic [ref=e703]: 3:08
+                      - generic:
+                        - generic:
+                          - img
+                    - generic [ref=e704]:
+                      - 'heading "JavaScript #1 Chapter01 Overview 3 minutes, 8 seconds" [level=4] [ref=e705]':
+                        - 'generic "JavaScript #1 Chapter01 Overview 3 minutes, 8 seconds" [ref=e706]': "JavaScript #1 Chapter01 Overview"
+                      - generic [ref=e708]: Testers Talk
+                - button "Action menu" [ref=e712] [cursor=pointer]:
+                  - generic [ref=e715]:
+                    - img
+              - generic [ref=e716]:
+                - 'link "8 JavaScript #2 What is JavaScript? | HTML Vs JavaScript Vs CSS 3 minutes, 12 seconds Testers Talk" [ref=e717] [cursor=pointer]':
+                  - /url: /watch?v=s50YyoEH1Og&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=8&pp=iAQB
+                  - generic [ref=e718]:
+                    - generic [ref=e720]: "8"
+                    - link [ref=e723]:
+                      - /url: /watch?v=s50YyoEH1Og&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=8&pp=iAQB
+                      - img [ref=e727]:
+                        - generic [ref=e728]: 3:12
+                      - generic:
+                        - generic:
+                          - img
+                    - generic [ref=e729]:
+                      - 'heading "JavaScript #2 What is JavaScript? | HTML Vs JavaScript Vs CSS 3 minutes, 12 seconds" [level=4] [ref=e730]':
+                        - 'generic "JavaScript #2 What is JavaScript? | HTML Vs JavaScript Vs CSS 3 minutes, 12 seconds" [ref=e731]': "JavaScript #2 What is JavaScript? | HTML Vs JavaScript Vs CSS"
+                      - generic [ref=e733]: Testers Talk
+                - button "Action menu" [ref=e737] [cursor=pointer]:
+                  - generic [ref=e740]:
+                    - img
+              - generic [ref=e741]:
+                - 'link "9 JavaScript #3 Download & Install NodeJS and Visual Studio Code 4 minutes, 3 seconds Testers Talk" [ref=e742] [cursor=pointer]':
+                  - /url: /watch?v=LEtYn8GGFac&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=9&pp=iAQB
+                  - generic [ref=e743]:
+                    - generic [ref=e745]: "9"
+                    - link [ref=e748]:
+                      - /url: /watch?v=LEtYn8GGFac&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=9&pp=iAQB
+                      - img [ref=e752]:
+                        - generic [ref=e753]: 4:03
+                      - generic:
+                        - generic:
+                          - img
+                    - generic [ref=e754]:
+                      - 'heading "JavaScript #3 Download & Install NodeJS and Visual Studio Code 4 minutes, 3 seconds" [level=4] [ref=e755]':
+                        - 'generic "JavaScript #3 Download & Install NodeJS and Visual Studio Code 4 minutes, 3 seconds" [ref=e756]': "JavaScript #3 Download & Install NodeJS and Visual Studio Code"
+                      - generic [ref=e758]: Testers Talk
+                - button "Action menu" [ref=e762] [cursor=pointer]:
+                  - generic [ref=e765]:
+                    - img
+              - generic [ref=e766]:
+                - 'link "10 JavaScript #4 JavaScript Examples with Browsers Chrome Edge Firefox 3 minutes, 56 seconds Testers Talk" [ref=e767] [cursor=pointer]':
+                  - /url: /watch?v=HrNywkSuhoM&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=10&pp=iAQB
+                  - generic [ref=e768]:
+                    - generic [ref=e770]: "10"
+                    - link [ref=e773]:
+                      - /url: /watch?v=HrNywkSuhoM&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=10&pp=iAQB
+                    - generic [ref=e775]:
+                      - 'heading "JavaScript #4 JavaScript Examples with Browsers Chrome Edge Firefox 3 minutes, 56 seconds" [level=4] [ref=e776]':
+                        - 'generic "JavaScript #4 JavaScript Examples with Browsers Chrome Edge Firefox 3 minutes, 56 seconds" [ref=e777]': "JavaScript #4 JavaScript Examples with Browsers Chrome Edge Firefox"
+                      - generic [ref=e779]: Testers Talk
+                - button "Action menu" [ref=e783] [cursor=pointer]:
+                  - generic [ref=e786]:
+                    - img
+              - generic [ref=e787]:
+                - 'link "11 JavaScript #5 Variables with Examples 12 minutes, 49 seconds Testers Talk" [ref=e788] [cursor=pointer]':
+                  - /url: /watch?v=-Cq9hGVmWD0&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=11&pp=iAQB
+                  - generic [ref=e789]:
+                    - generic [ref=e791]: "11"
+                    - link [ref=e794]:
+                      - /url: /watch?v=-Cq9hGVmWD0&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=11&pp=iAQB
+                    - generic [ref=e796]:
+                      - 'heading "JavaScript #5 Variables with Examples 12 minutes, 49 seconds" [level=4] [ref=e797]':
+                        - 'generic "JavaScript #5 Variables with Examples 12 minutes, 49 seconds" [ref=e798]': "JavaScript #5 Variables with Examples"
+                      - generic [ref=e800]: Testers Talk
+                - button "Action menu" [ref=e804] [cursor=pointer]:
+                  - generic [ref=e807]:
+                    - img
+              - generic [ref=e808]:
+                - 'link "12 JavaScript #6 Reserved Keywords and Variable Mutability with Examples 4 minutes, 42 seconds Testers Talk" [ref=e809] [cursor=pointer]':
+                  - /url: /watch?v=hJQoakNxBtA&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=12&pp=iAQB0gcJCU0KAYcqIYzv
+                  - generic [ref=e810]:
+                    - generic [ref=e812]: "12"
+                    - link [ref=e815]:
+                      - /url: /watch?v=hJQoakNxBtA&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=12&pp=iAQB0gcJCU0KAYcqIYzv
+                    - generic [ref=e817]:
+                      - 'heading "JavaScript #6 Reserved Keywords and Variable Mutability with Examples 4 minutes, 42 seconds" [level=4] [ref=e818]':
+                        - 'generic "JavaScript #6 Reserved Keywords and Variable Mutability with Examples 4 minutes, 42 seconds" [ref=e819]': "JavaScript #6 Reserved Keywords and Variable Mutability with Examples"
+                      - generic [ref=e821]: Testers Talk
+                - button "Action menu" [ref=e825] [cursor=pointer]:
+                  - generic [ref=e828]:
+                    - img
+              - generic [ref=e829]:
+                - 'link "13 JavaScript #7 Strings Properties and Methods with Examples 19 minutes Testers Talk" [ref=e830] [cursor=pointer]':
+                  - /url: /watch?v=enXeI7mNC-c&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=13&pp=iAQB
+                  - generic [ref=e831]:
+                    - generic [ref=e833]: "13"
+                    - link [ref=e836]:
+                      - /url: /watch?v=enXeI7mNC-c&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=13&pp=iAQB
+                    - generic [ref=e838]:
+                      - 'heading "JavaScript #7 Strings Properties and Methods with Examples 19 minutes" [level=4] [ref=e839]':
+                        - 'generic "JavaScript #7 Strings Properties and Methods with Examples 19 minutes" [ref=e840]': "JavaScript #7 Strings Properties and Methods with Examples"
+                      - generic [ref=e842]: Testers Talk
+                - button "Action menu" [ref=e846] [cursor=pointer]:
+                  - generic [ref=e849]:
+                    - img
+              - generic [ref=e850]:
+                - 'link "14 JavaScript #8 Numbers and Booleans with Examples 12 minutes, 18 seconds Testers Talk" [ref=e851] [cursor=pointer]':
+                  - /url: /watch?v=-ucoT16jU5Y&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=14&pp=iAQB
+                  - generic [ref=e852]:
+                    - generic [ref=e854]: "14"
+                    - link [ref=e857]:
+                      - /url: /watch?v=-ucoT16jU5Y&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=14&pp=iAQB
+                    - generic [ref=e859]:
+                      - 'heading "JavaScript #8 Numbers and Booleans with Examples 12 minutes, 18 seconds" [level=4] [ref=e860]':
+                        - 'generic "JavaScript #8 Numbers and Booleans with Examples 12 minutes, 18 seconds" [ref=e861]': "JavaScript #8 Numbers and Booleans with Examples"
+                      - generic [ref=e863]: Testers Talk
+                - button "Action menu" [ref=e867] [cursor=pointer]:
+                  - generic [ref=e870]:
+                    - img
+              - generic [ref=e871]:
+                - 'link "15 JavaScript #9 Chapter02 Overview 2 minutes, 39 seconds Testers Talk" [ref=e872] [cursor=pointer]':
+                  - /url: /watch?v=2oq-4VdDJqY&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=15&pp=iAQB0gcJCU0KAYcqIYzv
+                  - generic [ref=e873]:
+                    - generic [ref=e875]: "15"
+                    - link [ref=e878]:
+                      - /url: /watch?v=2oq-4VdDJqY&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=15&pp=iAQB0gcJCU0KAYcqIYzv
+                    - generic [ref=e880]:
+                      - 'heading "JavaScript #9 Chapter02 Overview 2 minutes, 39 seconds" [level=4] [ref=e881]':
+                        - 'generic "JavaScript #9 Chapter02 Overview 2 minutes, 39 seconds" [ref=e882]': "JavaScript #9 Chapter02 Overview"
+                      - generic [ref=e884]: Testers Talk
+                - button "Action menu" [ref=e888] [cursor=pointer]:
+                  - generic [ref=e891]:
+                    - img
+              - generic [ref=e892]:
+                - 'link "16 JavaScript #10 Objects with Examples 10 minutes, 29 seconds Testers Talk" [ref=e893] [cursor=pointer]':
+                  - /url: /watch?v=fNPFawjDX6o&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=16&pp=iAQB
+                  - generic [ref=e894]:
+                    - generic [ref=e896]: "16"
+                    - link [ref=e899]:
+                      - /url: /watch?v=fNPFawjDX6o&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=16&pp=iAQB
+                    - generic [ref=e901]:
+                      - 'heading "JavaScript #10 Objects with Examples 10 minutes, 29 seconds" [level=4] [ref=e902]':
+                        - 'generic "JavaScript #10 Objects with Examples 10 minutes, 29 seconds" [ref=e903]': "JavaScript #10 Objects with Examples"
+                      - generic [ref=e905]: Testers Talk
+                - button "Action menu" [ref=e909] [cursor=pointer]:
+                  - generic [ref=e912]:
+                    - img
+              - generic [ref=e913]:
+                - 'link "17 JavaScript #11 Arrays with Examples 11 minutes, 7 seconds Testers Talk" [ref=e914] [cursor=pointer]':
+                  - /url: /watch?v=3PHzgPZa1PE&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=17&pp=iAQB
+                  - generic [ref=e915]:
+                    - generic [ref=e917]: "17"
+                    - link [ref=e920]:
+                      - /url: /watch?v=3PHzgPZa1PE&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=17&pp=iAQB
+                    - generic [ref=e922]:
+                      - 'heading "JavaScript #11 Arrays with Examples 11 minutes, 7 seconds" [level=4] [ref=e923]':
+                        - 'generic "JavaScript #11 Arrays with Examples 11 minutes, 7 seconds" [ref=e924]': "JavaScript #11 Arrays with Examples"
+                      - generic [ref=e926]: Testers Talk
+                - button "Action menu" [ref=e930] [cursor=pointer]:
+                  - generic [ref=e933]:
+                    - img
+              - generic [ref=e934]:
+                - 'link "18 JavaScript #12 Comments and Prettier Code Formatter 6 minutes, 2 seconds Testers Talk" [ref=e935] [cursor=pointer]':
+                  - /url: /watch?v=f8wR6k3YML0&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=18&pp=iAQB
+                  - generic [ref=e936]:
+                    - generic [ref=e938]: "18"
+                    - link [ref=e941]:
+                      - /url: /watch?v=f8wR6k3YML0&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=18&pp=iAQB
+                    - generic [ref=e943]:
+                      - 'heading "JavaScript #12 Comments and Prettier Code Formatter 6 minutes, 2 seconds" [level=4] [ref=e944]':
+                        - 'generic "JavaScript #12 Comments and Prettier Code Formatter 6 minutes, 2 seconds" [ref=e945]': "JavaScript #12 Comments and Prettier Code Formatter"
+                      - generic [ref=e947]: Testers Talk
+                - button "Action menu" [ref=e951] [cursor=pointer]:
+                  - generic [ref=e954]:
+                    - img
+              - generic [ref=e955]:
+                - 'link "19 JavaScript #13 Regular Expressions with Examples 8 minutes, 56 seconds Testers Talk" [ref=e956] [cursor=pointer]':
+                  - /url: /watch?v=YE5ONLW5I28&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=19&pp=iAQB
+                  - generic [ref=e957]:
+                    - generic [ref=e959]: "19"
+                    - link [ref=e962]:
+                      - /url: /watch?v=YE5ONLW5I28&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=19&pp=iAQB
+                    - generic [ref=e964]:
+                      - 'heading "JavaScript #13 Regular Expressions with Examples 8 minutes, 56 seconds" [level=4] [ref=e965]':
+                        - 'generic "JavaScript #13 Regular Expressions with Examples 8 minutes, 56 seconds" [ref=e966]': "JavaScript #13 Regular Expressions with Examples"
+                      - generic [ref=e968]: Testers Talk
+                - button "Action menu" [ref=e972] [cursor=pointer]:
+                  - generic [ref=e975]:
+                    - img
+              - generic [ref=e976]:
+                - 'link "20 JavaScript #14 Chapter03 Overview 1 minute, 26 seconds Testers Talk" [ref=e977] [cursor=pointer]':
+                  - /url: /watch?v=hx5dcDzzD5w&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=20&pp=iAQB
+                  - generic [ref=e978]:
+                    - generic [ref=e980]: "20"
+                    - link [ref=e983]:
+                      - /url: /watch?v=hx5dcDzzD5w&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=20&pp=iAQB
+                    - generic [ref=e985]:
+                      - 'heading "JavaScript #14 Chapter03 Overview 1 minute, 26 seconds" [level=4] [ref=e986]':
+                        - 'generic "JavaScript #14 Chapter03 Overview 1 minute, 26 seconds" [ref=e987]': "JavaScript #14 Chapter03 Overview"
+                      - generic [ref=e989]: Testers Talk
+                - button "Action menu" [ref=e993] [cursor=pointer]:
+                  - generic [ref=e996]:
+                    - img
+              - generic [ref=e997]:
+                - 'link "21 JavaScript #15 Arithmatic Increment & Decrement Operators with Examples 14 minutes, 13 seconds Testers Talk" [ref=e998] [cursor=pointer]':
+                  - /url: /watch?v=A4LAtbGVoLw&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=21&pp=iAQB0gcJCU0KAYcqIYzv
+                  - generic [ref=e999]:
+                    - generic [ref=e1001]: "21"
+                    - link [ref=e1004]:
+                      - /url: /watch?v=A4LAtbGVoLw&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=21&pp=iAQB0gcJCU0KAYcqIYzv
+                    - generic [ref=e1006]:
+                      - 'heading "JavaScript #15 Arithmatic Increment & Decrement Operators with Examples 14 minutes, 13 seconds" [level=4] [ref=e1007]':
+                        - 'generic "JavaScript #15 Arithmatic Increment & Decrement Operators with Examples 14 minutes, 13 seconds" [ref=e1008]': "JavaScript #15 Arithmatic Increment & Decrement Operators with Examples"
+                      - generic [ref=e1010]: Testers Talk
+                - button "Action menu" [ref=e1014] [cursor=pointer]:
+                  - generic [ref=e1017]:
+                    - img
+              - generic [ref=e1018]:
+                - 'link "22 JavaScript #16 Logical Operators with Examples 10 minutes, 26 seconds Testers Talk" [ref=e1019] [cursor=pointer]':
+                  - /url: /watch?v=2Ns8EYziWns&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=22&pp=iAQB
+                  - generic [ref=e1020]:
+                    - generic [ref=e1022]: "22"
+                    - link [ref=e1025]:
+                      - /url: /watch?v=2Ns8EYziWns&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=22&pp=iAQB
+                    - generic [ref=e1027]:
+                      - 'heading "JavaScript #16 Logical Operators with Examples 10 minutes, 26 seconds" [level=4] [ref=e1028]':
+                        - 'generic "JavaScript #16 Logical Operators with Examples 10 minutes, 26 seconds" [ref=e1029]': "JavaScript #16 Logical Operators with Examples"
+                      - generic [ref=e1031]: Testers Talk
+                - button "Action menu" [ref=e1035] [cursor=pointer]:
+                  - generic [ref=e1038]:
+                    - img
+              - generic [ref=e1039]:
+                - 'link "23 JavaScript #17 If, If Else, If Else If with Examples 8 minutes, 1 second Testers Talk" [ref=e1040] [cursor=pointer]':
+                  - /url: /watch?v=CWYoskqH-Dw&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=23&pp=iAQB
+                  - generic [ref=e1041]:
+                    - generic [ref=e1043]: "23"
+                    - link [ref=e1046]:
+                      - /url: /watch?v=CWYoskqH-Dw&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=23&pp=iAQB
+                    - generic [ref=e1048]:
+                      - 'heading "JavaScript #17 If, If Else, If Else If with Examples 8 minutes, 1 second" [level=4] [ref=e1049]':
+                        - 'generic "JavaScript #17 If, If Else, If Else If with Examples 8 minutes, 1 second" [ref=e1050]': "JavaScript #17 If, If Else, If Else If with Examples"
+                      - generic [ref=e1052]: Testers Talk
+                - button "Action menu" [ref=e1056] [cursor=pointer]:
+                  - generic [ref=e1059]:
+                    - img
+              - generic [ref=e1060]:
+                - 'link "24 JavaScript #18 Switch Statement with Examples in JavaScript 6 minutes, 56 seconds Testers Talk" [ref=e1061] [cursor=pointer]':
+                  - /url: /watch?v=X-GXNSwnz4c&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=24&pp=iAQB
+                  - generic [ref=e1062]:
+                    - generic [ref=e1064]: "24"
+                    - link [ref=e1067]:
+                      - /url: /watch?v=X-GXNSwnz4c&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=24&pp=iAQB
+                    - generic [ref=e1069]:
+                      - 'heading "JavaScript #18 Switch Statement with Examples in JavaScript 6 minutes, 56 seconds" [level=4] [ref=e1070]':
+                        - 'generic "JavaScript #18 Switch Statement with Examples in JavaScript 6 minutes, 56 seconds" [ref=e1071]': "JavaScript #18 Switch Statement with Examples in JavaScript"
+                      - generic [ref=e1073]: Testers Talk
+                - button "Action menu" [ref=e1077] [cursor=pointer]:
+                  - generic [ref=e1080]:
+                    - img
+              - generic [ref=e1081]:
+                - 'link "25 JavaScript #19 Ternary Operator & One Line if Statement & Examples 6 minutes, 45 seconds Testers Talk" [ref=e1082] [cursor=pointer]':
+                  - /url: /watch?v=nTUYH3ty6LQ&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=25&pp=iAQB
+                  - generic [ref=e1083]:
+                    - generic [ref=e1085]: "25"
+                    - link [ref=e1088]:
+                      - /url: /watch?v=nTUYH3ty6LQ&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=25&pp=iAQB
+                    - generic [ref=e1090]:
+                      - 'heading "JavaScript #19 Ternary Operator & One Line if Statement & Examples 6 minutes, 45 seconds" [level=4] [ref=e1091]':
+                        - 'generic "JavaScript #19 Ternary Operator & One Line if Statement & Examples 6 minutes, 45 seconds" [ref=e1092]': "JavaScript #19 Ternary Operator & One Line if Statement & Examples"
+                      - generic [ref=e1094]: Testers Talk
+                - button "Action menu" [ref=e1098] [cursor=pointer]:
+                  - generic [ref=e1101]:
+                    - img
+              - generic [ref=e1102]:
+                - 'link "26 JavaScript #20 TypeOf Operator with Examples 10 minutes, 27 seconds Testers Talk" [ref=e1103] [cursor=pointer]':
+                  - /url: /watch?v=UcQArHb0sRg&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=26&pp=iAQB
+                  - generic [ref=e1104]:
+                    - generic [ref=e1106]: "26"
+                    - link [ref=e1109]:
+                      - /url: /watch?v=UcQArHb0sRg&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=26&pp=iAQB
+                    - generic [ref=e1111]:
+                      - 'heading "JavaScript #20 TypeOf Operator with Examples 10 minutes, 27 seconds" [level=4] [ref=e1112]':
+                        - 'generic "JavaScript #20 TypeOf Operator with Examples 10 minutes, 27 seconds" [ref=e1113]': "JavaScript #20 TypeOf Operator with Examples"
+                      - generic [ref=e1115]: Testers Talk
+                - button "Action menu" [ref=e1119] [cursor=pointer]:
+                  - generic [ref=e1122]:
+                    - img
+              - generic [ref=e1123]:
+                - 'link "27 JavaScript #21 Chapter04 Overview 1 minute, 44 seconds Testers Talk" [ref=e1124] [cursor=pointer]':
+                  - /url: /watch?v=nzLPol3zp3Y&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=27&pp=iAQB
+                  - generic [ref=e1125]:
+                    - generic [ref=e1127]: "27"
+                    - link [ref=e1130]:
+                      - /url: /watch?v=nzLPol3zp3Y&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=27&pp=iAQB
+                    - generic [ref=e1132]:
+                      - 'heading "JavaScript #21 Chapter04 Overview 1 minute, 44 seconds" [level=4] [ref=e1133]':
+                        - 'generic "JavaScript #21 Chapter04 Overview 1 minute, 44 seconds" [ref=e1134]': "JavaScript #21 Chapter04 Overview"
+                      - generic [ref=e1136]: Testers Talk
+                - button "Action menu" [ref=e1140] [cursor=pointer]:
+                  - generic [ref=e1143]:
+                    - img
+              - generic [ref=e1144]:
+                - 'link "28 JavaScript #22 For Loops with Examples 9 minutes, 58 seconds Testers Talk" [ref=e1145] [cursor=pointer]':
+                  - /url: /watch?v=cCZWfW2i14U&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=28&pp=iAQB
+                  - generic [ref=e1146]:
+                    - generic [ref=e1148]: "28"
+                    - link [ref=e1151]:
+                      - /url: /watch?v=cCZWfW2i14U&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=28&pp=iAQB
+                    - generic [ref=e1153]:
+                      - 'heading "JavaScript #22 For Loops with Examples 9 minutes, 58 seconds" [level=4] [ref=e1154]':
+                        - 'generic "JavaScript #22 For Loops with Examples 9 minutes, 58 seconds" [ref=e1155]': "JavaScript #22 For Loops with Examples"
+                      - generic [ref=e1157]: Testers Talk
+                - button "Action menu" [ref=e1161] [cursor=pointer]:
+                  - generic [ref=e1164]:
+                    - img
+              - generic [ref=e1165]:
+                - 'link "29 JavaScript #23 Set with Examples 13 minutes, 58 seconds Testers Talk" [ref=e1166] [cursor=pointer]':
+                  - /url: /watch?v=rba_UkeoEzA&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=29&pp=iAQB
+                  - generic [ref=e1167]:
+                    - generic [ref=e1169]: "29"
+                    - link [ref=e1172]:
+                      - /url: /watch?v=rba_UkeoEzA&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=29&pp=iAQB
+                    - generic [ref=e1174]:
+                      - 'heading "JavaScript #23 Set with Examples 13 minutes, 58 seconds" [level=4] [ref=e1175]':
+                        - 'generic "JavaScript #23 Set with Examples 13 minutes, 58 seconds" [ref=e1176]': "JavaScript #23 Set with Examples"
+                      - generic [ref=e1178]: Testers Talk
+                - button "Action menu" [ref=e1182] [cursor=pointer]:
+                  - generic [ref=e1185]:
+                    - img
+              - generic [ref=e1186]:
+                - 'link "30 JavaScript #24 Map with Examples 18 minutes Testers Talk" [ref=e1187] [cursor=pointer]':
+                  - /url: /watch?v=Ww_bVmMmV08&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=30&pp=iAQB
+                  - generic [ref=e1188]:
+                    - generic [ref=e1190]: "30"
+                    - link [ref=e1193]:
+                      - /url: /watch?v=Ww_bVmMmV08&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=30&pp=iAQB
+                    - generic [ref=e1195]:
+                      - 'heading "JavaScript #24 Map with Examples 18 minutes" [level=4] [ref=e1196]':
+                        - 'generic "JavaScript #24 Map with Examples 18 minutes" [ref=e1197]': "JavaScript #24 Map with Examples"
+                      - generic [ref=e1199]: Testers Talk
+                - button "Action menu" [ref=e1203] [cursor=pointer]:
+                  - generic [ref=e1206]:
+                    - img
+              - generic [ref=e1207]:
+                - 'link "31 JavaScript #25 While Loop & Do While Loop with Examples 5 minutes, 9 seconds Testers Talk" [ref=e1208] [cursor=pointer]':
+                  - /url: /watch?v=lBpDXdz4sDo&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=31&pp=iAQB
+                  - generic [ref=e1209]:
+                    - generic [ref=e1211]: "31"
+                    - link [ref=e1214]:
+                      - /url: /watch?v=lBpDXdz4sDo&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=31&pp=iAQB
+                    - generic [ref=e1216]:
+                      - 'heading "JavaScript #25 While Loop & Do While Loop with Examples 5 minutes, 9 seconds" [level=4] [ref=e1217]':
+                        - 'generic "JavaScript #25 While Loop & Do While Loop with Examples 5 minutes, 9 seconds" [ref=e1218]': "JavaScript #25 While Loop & Do While Loop with Examples"
+                      - generic [ref=e1220]: Testers Talk
+                - button "Action menu" [ref=e1224] [cursor=pointer]:
+                  - generic [ref=e1227]:
+                    - img
+              - generic [ref=e1228]:
+                - 'link "32 JavaScript #26 Chapter05 Overview 1 minute, 20 seconds Testers Talk" [ref=e1229] [cursor=pointer]':
+                  - /url: /watch?v=OJZ8FAl_1j8&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=32&pp=iAQB
+                  - generic [ref=e1230]:
+                    - generic [ref=e1232]: "32"
+                    - link [ref=e1235]:
+                      - /url: /watch?v=OJZ8FAl_1j8&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=32&pp=iAQB
+                    - generic [ref=e1237]:
+                      - 'heading "JavaScript #26 Chapter05 Overview 1 minute, 20 seconds" [level=4] [ref=e1238]':
+                        - 'generic "JavaScript #26 Chapter05 Overview 1 minute, 20 seconds" [ref=e1239]': "JavaScript #26 Chapter05 Overview"
+                      - generic [ref=e1241]: Testers Talk
+                - button "Action menu" [ref=e1245] [cursor=pointer]:
+                  - generic [ref=e1248]:
+                    - img
+              - generic [ref=e1249]:
+                - 'link "33 JavaScript #27 Functions with Examples 23 minutes Testers Talk" [ref=e1250] [cursor=pointer]':
+                  - /url: /watch?v=1vgVNR-Rfbc&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=33&pp=iAQB
+                  - generic [ref=e1251]:
+                    - generic [ref=e1253]: "33"
+                    - link [ref=e1256]:
+                      - /url: /watch?v=1vgVNR-Rfbc&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=33&pp=iAQB
+                    - generic [ref=e1258]:
+                      - 'heading "JavaScript #27 Functions with Examples 23 minutes" [level=4] [ref=e1259]':
+                        - 'generic "JavaScript #27 Functions with Examples 23 minutes" [ref=e1260]': "JavaScript #27 Functions with Examples"
+                      - generic [ref=e1262]: Testers Talk
+                - button "Action menu" [ref=e1266] [cursor=pointer]:
+                  - generic [ref=e1269]:
+                    - img
+              - generic [ref=e1270]:
+                - 'link "34 JavaScript #28 References, Objects & Functions with Examples 6 minutes, 39 seconds Testers Talk" [ref=e1271] [cursor=pointer]':
+                  - /url: /watch?v=LqaM6R6y7v8&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=34&pp=iAQB
+                  - generic [ref=e1272]:
+                    - generic [ref=e1274]: "34"
+                    - link [ref=e1277]:
+                      - /url: /watch?v=LqaM6R6y7v8&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=34&pp=iAQB
+                    - generic [ref=e1279]:
+                      - 'heading "JavaScript #28 References, Objects & Functions with Examples 6 minutes, 39 seconds" [level=4] [ref=e1280]':
+                        - 'generic "JavaScript #28 References, Objects & Functions with Examples 6 minutes, 39 seconds" [ref=e1281]': "JavaScript #28 References, Objects & Functions with Examples"
+                      - generic [ref=e1283]: Testers Talk
+                - button "Action menu" [ref=e1287] [cursor=pointer]:
+                  - generic [ref=e1290]:
+                    - img
+              - generic [ref=e1291]:
+                - 'link "35 JavaScript #29 Classes and Objects with Examples 6 minutes, 50 seconds Testers Talk" [ref=e1292] [cursor=pointer]':
+                  - /url: /watch?v=_gVQQqrvJn4&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=35&pp=iAQB
+                  - generic [ref=e1293]:
+                    - generic [ref=e1295]: "35"
+                    - link [ref=e1298]:
+                      - /url: /watch?v=_gVQQqrvJn4&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=35&pp=iAQB
+                    - generic [ref=e1300]:
+                      - 'heading "JavaScript #29 Classes and Objects with Examples 6 minutes, 50 seconds" [level=4] [ref=e1301]':
+                        - 'generic "JavaScript #29 Classes and Objects with Examples 6 minutes, 50 seconds" [ref=e1302]': "JavaScript #29 Classes and Objects with Examples"
+                      - generic [ref=e1304]: Testers Talk
+                - button "Action menu" [ref=e1308] [cursor=pointer]:
+                  - generic [ref=e1311]:
+                    - img
+              - generic [ref=e1312]:
+                - 'link "36 JavaScript #30 Constructors, Classes & Objects with Examples 8 minutes, 50 seconds Testers Talk" [ref=e1313] [cursor=pointer]':
+                  - /url: /watch?v=ix61UCO2YxU&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=36&pp=iAQB
+                  - generic [ref=e1314]:
+                    - generic [ref=e1316]: "36"
+                    - link [ref=e1319]:
+                      - /url: /watch?v=ix61UCO2YxU&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=36&pp=iAQB
+                    - generic [ref=e1321]:
+                      - 'heading "JavaScript #30 Constructors, Classes & Objects with Examples 8 minutes, 50 seconds" [level=4] [ref=e1322]':
+                        - 'generic "JavaScript #30 Constructors, Classes & Objects with Examples 8 minutes, 50 seconds" [ref=e1323]': "JavaScript #30 Constructors, Classes & Objects with Examples"
+                      - generic [ref=e1325]: Testers Talk
+                - button "Action menu" [ref=e1329] [cursor=pointer]:
+                  - generic [ref=e1332]:
+                    - img
+              - generic [ref=e1333]:
+                - 'link "37 JavaScript #31 Inheritance with Examples 7 minutes, 29 seconds Testers Talk" [ref=e1334] [cursor=pointer]':
+                  - /url: /watch?v=QTuIaCIDhyg&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=37&pp=iAQB
+                  - generic [ref=e1335]:
+                    - generic [ref=e1337]: "37"
+                    - link [ref=e1340]:
+                      - /url: /watch?v=QTuIaCIDhyg&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=37&pp=iAQB
+                    - generic [ref=e1342]:
+                      - 'heading "JavaScript #31 Inheritance with Examples 7 minutes, 29 seconds" [level=4] [ref=e1343]':
+                        - 'generic "JavaScript #31 Inheritance with Examples 7 minutes, 29 seconds" [ref=e1344]': "JavaScript #31 Inheritance with Examples"
+                      - generic [ref=e1346]: Testers Talk
+                - button "Action menu" [ref=e1350] [cursor=pointer]:
+                  - generic [ref=e1353]:
+                    - img
+              - generic [ref=e1354]:
+                - link "38 JavaScript Full Course Overview 35 seconds Testers Talk" [ref=e1355] [cursor=pointer]:
+                  - /url: /watch?v=NWxLpeWovF0&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=38&pp=iAQB
+                  - generic [ref=e1356]:
+                    - generic [ref=e1358]: "38"
+                    - link [ref=e1361]:
+                      - /url: /watch?v=NWxLpeWovF0&list=PLUeDIlio4THFLrS29tJnP9yz-QKhn4mdB&index=38&pp=iAQB
+                    - generic [ref=e1363]:
+                      - heading "JavaScript Full Course Overview 35 seconds" [level=4] [ref=e1364]:
+                        - generic "JavaScript Full Course Overview 35 seconds" [ref=e1365]: JavaScript Full Course Overview
+                      - generic [ref=e1367]: Testers Talk
+                - button "Action menu" [ref=e1371] [cursor=pointer]:
+                  - generic [ref=e1374]:
+                    - img
+          - generic [ref=e1377]:
+            - generic [ref=e1379] [cursor=pointer]:
+              - link [ref=e1380]:
+                - /url: /watch?v=QKBa8lt5Wfo&pp=0gcJCU0KAYcqIYzv
+                - generic [ref=e1386]: 2:43:38
+              - generic [ref=e1388]:
+                - generic [ref=e1389]:
+                  - heading "API Testing Postman Tutorial Full Course 2024 2 hours, 43 minutes" [level=3] [ref=e1390]:
+                    - link "API Testing Postman Tutorial Full Course 2024 2 hours, 43 minutes" [ref=e1391]:
+                      - /url: /watch?v=QKBa8lt5Wfo&pp=0gcJCU0KAYcqIYzv
+                      - text: API Testing Postman Tutorial Full Course 2024
+                  - generic [ref=e1393]:
+                    - generic [ref=e1395]: Testers Talk
+                    - generic [ref=e1396]:
+                      - generic [ref=e1397]: 150K views
+                      - generic [ref=e1398]: •
+                      - generic [ref=e1399]: 2 years ago
+                - button "More actions" [ref=e1402]:
+                  - generic [ref=e1406]:
+                    - img
+            - generic [ref=e1411] [cursor=pointer]:
+              - link [ref=e1412]:
+                - /url: /watch?v=IQuG77FNMhw&pp=0gcJCU0KAYcqIYzv
+                - generic [ref=e1418]: 2:55:00
+              - generic [ref=e1420]:
+                - generic [ref=e1421]:
+                  - heading "Javascript Tutorial for Beginners - Test Automation 2 hours, 55 minutes" [level=3] [ref=e1422]:
+                    - link "Javascript Tutorial for Beginners - Test Automation 2 hours, 55 minutes" [ref=e1423]:
+                      - /url: /watch?v=IQuG77FNMhw&pp=0gcJCU0KAYcqIYzv
+                      - text: Javascript Tutorial for Beginners - Test Automation
+                  - generic [ref=e1425]:
+                    - generic [ref=e1427]: Rahul Shetty Academy
+                    - generic [ref=e1428]:
+                      - generic [ref=e1429]: 90K views
+                      - generic [ref=e1430]: •
+                      - generic [ref=e1431]: 4 years ago
+                - button "More actions" [ref=e1434]:
+                  - generic [ref=e1438]:
+                    - img
+            - generic [ref=e1443] [cursor=pointer]:
+              - link [ref=e1444]:
+                - /url: /watch?v=IC5vBKc21X8
+                - generic [ref=e1450]: 5:26:05
+              - generic [ref=e1452]:
+                - generic [ref=e1453]:
+                  - heading "JavaScript Programming Tutorial for Beginners 5 hours, 26 minutes" [level=3] [ref=e1454]:
+                    - link "JavaScript Programming Tutorial for Beginners 5 hours, 26 minutes" [ref=e1455]:
+                      - /url: /watch?v=IC5vBKc21X8
+                      - text: JavaScript Programming Tutorial for Beginners
+                  - generic [ref=e1457]:
+                    - generic [ref=e1459]:
+                      - text: Telusko
+                      - img [ref=e1462]:
+                        - generic [ref=e1464]:
+                          - img
+                    - generic [ref=e1465]:
+                      - generic [ref=e1466]: 442K views
+                      - generic [ref=e1467]: •
+                      - generic [ref=e1468]: 3 years ago
+                - button "More actions" [ref=e1471]:
+                  - generic [ref=e1475]:
+                    - img
+            - generic [ref=e1480] [cursor=pointer]:
+              - link [ref=e1481]:
+                - /url: /watch?v=mJTeFxSehNA
+                - generic [ref=e1487]: 3:49:02
+              - generic [ref=e1489]:
+                - generic [ref=e1490]:
+                  - 'heading "JavaScript Tutorial for Beginners: The Language Itself 3 hours, 49 minutes" [level=3] [ref=e1491]':
+                    - 'link "JavaScript Tutorial for Beginners: The Language Itself 3 hours, 49 minutes" [ref=e1492]':
+                      - /url: /watch?v=mJTeFxSehNA
+                      - text: "JavaScript Tutorial for Beginners: The Language Itself"
+                  - generic [ref=e1494]:
+                    - generic [ref=e1496]:
+                      - text: LearnWebCode
+                      - img [ref=e1499]:
+                        - generic [ref=e1501]:
+                          - img
+                    - generic [ref=e1502]:
+                      - generic [ref=e1503]: 24K views
+                      - generic [ref=e1504]: •
+                      - generic [ref=e1505]: 1 year ago
+                - button "More actions" [ref=e1508]:
+                  - generic [ref=e1512]:
+                    - img
+            - generic [ref=e1517] [cursor=pointer]:
+              - link [ref=e1518]:
+                - /url: /watch?v=_eHc5K0zAPw
+                - generic [ref=e1524]: 3:44:10
+              - generic [ref=e1526]:
+                - generic [ref=e1527]:
+                  - heading "🚀🔥 JavaScript Crash Course (2024) | Hindi | Notes | Certificate 3 hours, 44 minutes" [level=3] [ref=e1528]:
+                    - link "🚀🔥 JavaScript Crash Course (2024) | Hindi | Notes | Certificate 3 hours, 44 minutes" [ref=e1529]:
+                      - /url: /watch?v=_eHc5K0zAPw
+                      - text: 🚀🔥 JavaScript Crash Course (2024) | Hindi | Notes | Certificate
+                  - generic [ref=e1531]:
+                    - generic [ref=e1533]:
+                      - text: Complete Coding by Prashant Sir
+                      - img [ref=e1536]:
+                        - generic [ref=e1538]:
+                          - img
+                    - generic [ref=e1539]:
+                      - generic [ref=e1540]: 144K views
+                      - generic [ref=e1541]: •
+                      - generic [ref=e1542]: 1 year ago
+                - button "More actions" [ref=e1545]:
+                  - generic [ref=e1549]:
+                    - img
+            - generic [ref=e1554] [cursor=pointer]:
+              - link [ref=e1555]:
+                - /url: /watch?v=Flkm2aear6A
+                - generic [ref=e1561]: 11:33:30
+              - generic [ref=e1563]:
+                - generic [ref=e1564]:
+                  - heading "Complete JavaScript Course in Telugu | Learn JavaScript from Basics to Advanced 11 hours, 33 minutes" [level=3] [ref=e1565]:
+                    - link "Complete JavaScript Course in Telugu | Learn JavaScript from Basics to Advanced 11 hours, 33 minutes" [ref=e1566]:
+                      - /url: /watch?v=Flkm2aear6A
+                      - text: Complete JavaScript Course in Telugu | Learn JavaScript from Basics to Advanced
+                  - generic [ref=e1568]:
+                    - generic [ref=e1570]: College Coders
+                    - generic [ref=e1571]:
+                      - generic [ref=e1572]: 17K views
+                      - generic [ref=e1573]: •
+                      - generic [ref=e1574]: 3 months ago
+                - button "More actions" [ref=e1577]:
+                  - generic [ref=e1581]:
+                    - img
+            - generic [ref=e1586] [cursor=pointer]:
+              - link [ref=e1587]:
+                - /url: /watch?v=FtaQSdrl7YA
+                - generic [ref=e1593]: 1:37:14
+              - generic [ref=e1595]:
+                - generic [ref=e1596]:
+                  - heading "JavaScript Tutorial for Beginners [JS Crash Course] 1 hour, 37 minutes" [level=3] [ref=e1597]:
+                    - link "JavaScript Tutorial for Beginners [JS Crash Course] 1 hour, 37 minutes" [ref=e1598]:
+                      - /url: /watch?v=FtaQSdrl7YA
+                      - text: JavaScript Tutorial for Beginners [JS Crash Course]
+                  - generic [ref=e1600]:
+                    - generic [ref=e1602]: TechWorld with Nana
+                    - generic [ref=e1603]:
+                      - generic [ref=e1604]: 409K views
+                      - generic [ref=e1605]: •
+                      - generic [ref=e1606]: 1 year ago
+                - button "More actions" [ref=e1609]:
+                  - generic [ref=e1613]:
+                    - img
+            - generic [ref=e1618] [cursor=pointer]:
+              - link [ref=e1619]:
+                - /url: /watch?v=e2fKYP_7B_Y
+                - generic [ref=e1625]: 1:34:42
+              - generic [ref=e1627]:
+                - generic [ref=e1628]:
+                  - heading "JavaScript for Beginners | Learn JavaScript in one hour! 1 hour, 34 minutes" [level=3] [ref=e1629]:
+                    - link "JavaScript for Beginners | Learn JavaScript in one hour! 1 hour, 34 minutes" [ref=e1630]:
+                      - /url: /watch?v=e2fKYP_7B_Y
+                      - text: JavaScript for Beginners | Learn JavaScript in one hour!
+                  - generic [ref=e1632]:
+                    - generic [ref=e1634]: Keerti Purswani
+                    - generic [ref=e1635]:
+                      - generic [ref=e1636]: 261K views
+                      - generic [ref=e1637]: •
+                      - generic [ref=e1638]: 1 year ago
+                - button "More actions" [ref=e1641]:
+                  - generic [ref=e1645]:
+                    - img
+            - generic [ref=e1650] [cursor=pointer]:
+              - link [ref=e1651]:
+                - /url: /watch?v=PkZNo7MFNFg&pp=ugUEEgJlbg%3D%3D
+                - generic [ref=e1657]: 3:26:43
+              - generic [ref=e1659]:
+                - generic [ref=e1660]:
+                  - heading "Learn JavaScript - Full Course for Beginners 3 hours, 26 minutes" [level=3] [ref=e1661]:
+                    - link "Learn JavaScript - Full Course for Beginners 3 hours, 26 minutes" [ref=e1662]:
+                      - /url: /watch?v=PkZNo7MFNFg&pp=ugUEEgJlbg%3D%3D
+                      - text: Learn JavaScript - Full Course for Beginners
+                  - generic [ref=e1664]:
+                    - generic [ref=e1667]:
+                      - text: freeCodeCamp.org
+                      - img [ref=e1670]:
+                        - generic [ref=e1672]:
+                          - img
+                      - text: and Beau Carnes
+                      - img [ref=e1675]:
+                        - generic [ref=e1677]:
+                          - img
+                    - generic [ref=e1678]:
+                      - generic [ref=e1679]: 20M views
+                      - generic [ref=e1680]: •
+                      - generic [ref=e1681]: 7 years ago
+                - button "More actions" [ref=e1684]:
+                  - generic [ref=e1688]:
+                    - img
+            - generic [ref=e1693] [cursor=pointer]:
+              - link [ref=e1694]:
+                - /url: /watch?v=oJV5whmzfZI
+                - generic [ref=e1700]: 5:04:18
+              - generic [ref=e1702]:
+                - generic [ref=e1703]:
+                  - heading "Cypress Tutorial Full Course | Cypress Automation | Learn Cypress in 5 Hrs 5 hours, 4 minutes" [level=3] [ref=e1704]:
+                    - link "Cypress Tutorial Full Course | Cypress Automation | Learn Cypress in 5 Hrs 5 hours, 4 minutes" [ref=e1705]:
+                      - /url: /watch?v=oJV5whmzfZI
+                      - text: Cypress Tutorial Full Course | Cypress Automation | Learn Cypress in 5 Hrs
+                  - generic [ref=e1707]:
+                    - generic [ref=e1709]: Testers Talk
+                    - generic [ref=e1710]:
+                      - generic [ref=e1711]: 71K views
+                      - generic [ref=e1712]: •
+                      - generic [ref=e1713]: 2 years ago
+                - button "More actions" [ref=e1716]:
+                  - generic [ref=e1720]:
+                    - img
+            - generic [ref=e1725] [cursor=pointer]:
+              - link [ref=e1726]:
+                - /url: /watch?v=KGkiIBTq0y0&pp=0gcJCU0KAYcqIYzv
+                - generic [ref=e1732]: 16:21:00
+              - generic [ref=e1734]:
+                - generic [ref=e1735]:
+                  - heading "JavaScript Complete Tutorial in Hindi 🚀 Free Notes + Codes 16 hours" [level=3] [ref=e1736]:
+                    - link "JavaScript Complete Tutorial in Hindi 🚀 Free Notes + Codes 16 hours" [ref=e1737]:
+                      - /url: /watch?v=KGkiIBTq0y0&pp=0gcJCU0KAYcqIYzv
+                      - text: JavaScript Complete Tutorial in Hindi 🚀 Free Notes + Codes
+                  - generic [ref=e1739]:
+                    - generic [ref=e1741]:
+                      - text: Thapa Technical
+                      - img [ref=e1744]:
+                        - generic [ref=e1746]:
+                          - img
+                    - generic [ref=e1747]:
+                      - generic [ref=e1748]: 3.5M views
+                      - generic [ref=e1749]: •
+                      - generic [ref=e1750]: 4 years ago
+                - button "More actions" [ref=e1753]:
+                  - generic [ref=e1757]:
+                    - img
+            - generic [ref=e1762] [cursor=pointer]:
+              - link [ref=e1763]:
+                - /url: /watch?v=d56mG7DezGs&pp=ugUEEgJlbg%3D%3D
+                - generic [ref=e1769]: 1:04:28
+              - generic [ref=e1771]:
+                - generic [ref=e1772]:
+                  - heading "TypeScript Tutorial for Beginners 1 hour, 4 minutes" [level=3] [ref=e1773]:
+                    - link "TypeScript Tutorial for Beginners 1 hour, 4 minutes" [ref=e1774]:
+                      - /url: /watch?v=d56mG7DezGs&pp=ugUEEgJlbg%3D%3D
+                      - text: TypeScript Tutorial for Beginners
+                  - generic [ref=e1776]:
+                    - generic [ref=e1778]:
+                      - text: Programming with Mosh
+                      - img [ref=e1781]:
+                        - generic [ref=e1783]:
+                          - img
+                    - generic [ref=e1784]:
+                      - generic [ref=e1785]: 1.8M views
+                      - generic [ref=e1786]: •
+                      - generic [ref=e1787]: 3 years ago
+                - button "More actions" [ref=e1790]:
+                  - generic [ref=e1794]:
+                    - img
+            - generic [ref=e1799] [cursor=pointer]:
+              - link [ref=e1800]:
+                - /url: /watch?v=9qEMbbNGAGI
+                - generic [ref=e1806]: 49:06
+              - generic [ref=e1808]:
+                - generic [ref=e1809]:
+                  - heading "Javascript Course in Telugu | Javascript for beginners | Vamsi Bhavani 49 minutes" [level=3] [ref=e1810]:
+                    - link "Javascript Course in Telugu | Javascript for beginners | Vamsi Bhavani 49 minutes" [ref=e1811]:
+                      - /url: /watch?v=9qEMbbNGAGI
+                      - text: Javascript Course in Telugu | Javascript for beginners | Vamsi Bhavani
+                  - generic [ref=e1813]:
+                    - generic [ref=e1815]:
+                      - text: Vamsi Bhavani
+                      - img [ref=e1818]:
+                        - generic [ref=e1820]:
+                          - img
+                    - generic [ref=e1821]:
+                      - generic [ref=e1822]: 154K views
+                      - generic [ref=e1823]: •
+                      - generic [ref=e1824]: 2 years ago
+                - button "More actions" [ref=e1827]:
+                  - generic [ref=e1831]:
+                    - img
+            - generic [ref=e1836] [cursor=pointer]:
+              - link [ref=e1837]:
+                - /url: /watch?v=sscX432bMZo
+                - generic [ref=e1843]: 9:02:21
+              - generic [ref=e1845]:
+                - generic [ref=e1846]:
+                  - heading "Javascript in 1 shot in Hindi | part 1 9 hours, 2 minutes" [level=3] [ref=e1847]:
+                    - link "Javascript in 1 shot in Hindi | part 1 9 hours, 2 minutes" [ref=e1848]:
+                      - /url: /watch?v=sscX432bMZo
+                      - text: Javascript in 1 shot in Hindi | part 1
+                  - generic [ref=e1850]:
+                    - generic [ref=e1852]: Chai aur Code
+                    - generic [ref=e1853]:
+                      - generic [ref=e1854]: 1.9M views
+                      - generic [ref=e1855]: •
+                      - generic [ref=e1856]: 2 years ago
+                - button "More actions" [ref=e1859]:
+                  - generic [ref=e1863]:
+                    - img
+            - generic [ref=e1868] [cursor=pointer]:
+              - link [ref=e1869]:
+                - /url: /watch?v=Pyv0tMm5i_w
+                - generic [ref=e1875]: 7:39:45
+              - generic [ref=e1877]:
+                - generic [ref=e1878]:
+                  - heading "JavaScript Full Course For Beginners With JavaScript Projects Tutorial And Notes 2025 7 hours, 39 minutes" [level=3] [ref=e1879]:
+                    - link "JavaScript Full Course For Beginners With JavaScript Projects Tutorial And Notes 2025 7 hours, 39 minutes" [ref=e1880]:
+                      - /url: /watch?v=Pyv0tMm5i_w
+                      - text: JavaScript Full Course For Beginners With JavaScript Projects Tutorial And Notes 2025
+                  - generic [ref=e1882]:
+                    - generic [ref=e1884]:
+                      - text: GreatStack
+                      - img [ref=e1887]:
+                        - generic [ref=e1889]:
+                          - img
+                    - generic [ref=e1890]:
+                      - generic [ref=e1891]: 333K views
+                      - generic [ref=e1892]: •
+                      - generic [ref=e1893]: 1 year ago
+                - button "More actions" [ref=e1896]:
+                  - generic [ref=e1900]:
+                    - img
+            - generic [ref=e1905] [cursor=pointer]:
+              - link [ref=e1906]:
+                - /url: /watch?v=lI1ae4REbFM
+                - generic [ref=e1912]: 12:21:23
+              - generic [ref=e1914]:
+                - generic [ref=e1915]:
+                  - heading "JavaScript Tutorial for Beginners - Full Course in 12 Hours (2022) 12 hours" [level=3] [ref=e1916]:
+                    - link "JavaScript Tutorial for Beginners - Full Course in 12 Hours (2022) 12 hours" [ref=e1917]:
+                      - /url: /watch?v=lI1ae4REbFM
+                      - text: JavaScript Tutorial for Beginners - Full Course in 12 Hours (2022)
+                  - generic [ref=e1919]:
+                    - generic [ref=e1921]:
+                      - text: Clever Programmer
+                      - img [ref=e1924]:
+                        - generic [ref=e1926]:
+                          - img
+                    - generic [ref=e1927]:
+                      - generic [ref=e1928]: 1.3M views
+                      - generic [ref=e1929]: •
+                      - generic [ref=e1930]: 3 years ago
+                - button "More actions" [ref=e1933]:
+                  - generic [ref=e1937]:
+                    - img
+            - generic [ref=e1942] [cursor=pointer]:
+              - link [ref=e1943]:
+                - /url: /watch?v=voLJ3CmaM1s
+                - generic [ref=e1949]: 1:15:40
+              - generic [ref=e1951]:
+                - generic [ref=e1952]:
+                  - 'heading "Learn JavaScript in 60 Minutes: The Ultimate Beginner Course! 1 hour, 15 minutes" [level=3] [ref=e1953]':
+                    - 'link "Learn JavaScript in 60 Minutes: The Ultimate Beginner Course! 1 hour, 15 minutes" [ref=e1954]':
+                      - /url: /watch?v=voLJ3CmaM1s
+                      - text: "Learn JavaScript in 60 Minutes: The Ultimate Beginner Course!"
+                  - generic [ref=e1956]:
+                    - generic [ref=e1958]:
+                      - text: Coding2GO
+                      - img [ref=e1961]:
+                        - generic [ref=e1963]:
+                          - img
+                    - generic [ref=e1964]:
+                      - generic [ref=e1965]: 140K views
+                      - generic [ref=e1966]: •
+                      - generic [ref=e1967]: 5 months ago
+                - button "More actions" [ref=e1970]:
+                  - generic [ref=e1974]:
+                    - img
+            - generic [ref=e1979] [cursor=pointer]:
+              - link [ref=e1980]:
+                - /url: /watch?v=FjnF-P7FY28
+                - generic [ref=e1986]: 5:44:14
+              - generic [ref=e1988]:
+                - generic [ref=e1989]:
+                  - 'heading "Complete API Automation Framework-Rest Assured #sdet #automationtesting 5 hours, 44 minutes" [level=3] [ref=e1990]':
+                    - 'link "Complete API Automation Framework-Rest Assured #sdet #automationtesting 5 hours, 44 minutes" [ref=e1991]':
+                      - /url: /watch?v=FjnF-P7FY28
+                      - text: "Complete API Automation Framework-Rest Assured #sdet #automationtesting"
+                  - generic [ref=e1993]:
+                    - generic [ref=e1995]: Tech with Jatin
+                    - generic [ref=e1996]:
+                      - generic [ref=e1997]: 67K views
+                      - generic [ref=e1998]: •
+                      - generic [ref=e1999]: 1 year ago
+                - button "More actions" [ref=e2002]:
+                  - generic [ref=e2006]:
+                    - img
+            - generic [ref=e2011] [cursor=pointer]:
+              - link [ref=e2012]:
+                - /url: /watch?v=BI1o2H9z9fo&pp=0gcJCU0KAYcqIYzv
+                - generic [ref=e2018]: 11:54:00
+              - generic [ref=e2020]:
+                - generic [ref=e2021]:
+                  - heading "Modern JavaScript From The Beginning | First 12 Hours 11 hours, 54 minutes" [level=3] [ref=e2022]:
+                    - link "Modern JavaScript From The Beginning | First 12 Hours 11 hours, 54 minutes" [ref=e2023]:
+                      - /url: /watch?v=BI1o2H9z9fo&pp=0gcJCU0KAYcqIYzv
+                      - text: Modern JavaScript From The Beginning | First 12 Hours
+                  - generic [ref=e2025]:
+                    - generic [ref=e2027]:
+                      - text: Traversy Media
+                      - img [ref=e2030]:
+                        - generic [ref=e2032]:
+                          - img
+                    - generic [ref=e2033]:
+                      - generic [ref=e2034]: 798K views
+                      - generic [ref=e2035]: •
+                      - generic [ref=e2036]: 2 years ago
+                - button "More actions" [ref=e2039]:
+                  - generic [ref=e2043]:
+                    - img
+            - generic [ref=e2048] [cursor=pointer]:
+              - link [ref=e2049]:
+                - /url: /watch?v=oocF8BRL2N0
+                - generic [ref=e2055]: 6:16:38
+              - generic [ref=e2057]:
+                - generic [ref=e2058]:
+                  - heading "JavaScript Full Course In Telugu || JavaScript Beginner Course 6 hours, 16 minutes" [level=3] [ref=e2059]:
+                    - link "JavaScript Full Course In Telugu || JavaScript Beginner Course 6 hours, 16 minutes" [ref=e2060]:
+                      - /url: /watch?v=oocF8BRL2N0
+                      - text: JavaScript Full Course In Telugu || JavaScript Beginner Course
+                  - generic [ref=e2062]:
+                    - generic [ref=e2064]: Telugu WebTech
+                    - generic [ref=e2065]:
+                      - generic [ref=e2066]: 151K views
+                      - generic [ref=e2067]: •
+                      - generic [ref=e2068]: 2 years ago
+                - button "More actions" [ref=e2071]:
+                  - generic [ref=e2075]:
+                    - img
+    - text: · • • • · • • •
+```

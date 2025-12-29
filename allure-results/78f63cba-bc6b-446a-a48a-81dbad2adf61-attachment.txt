@@ -1,0 +1,6 @@
+Global before is running...
+Tests are running in qa env.
+Skill : Playwright By Testers Talk
+Skill : Cypress By Testers Talk
+Skill : Cypress By Testers Talk
+Global afterEach is running...

@@ -1,0 +1,1308 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "Guide" [ref=e9] [cursor=pointer]:
+          - generic [ref=e12]:
+            - img
+        - generic [ref=e13]:
+          - link "YouTube Home" [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e19]:
+              - img
+          - generic [ref=e20]: IN
+        - button "Skip navigation" [ref=e24] [cursor=pointer]:
+          - generic [ref=e25]: Skip navigation
+      - generic [ref=e29]:
+        - search [ref=e30]:
+          - generic [ref=e31]:
+            - combobox "Search" [expanded] [ref=e33]: API Testing by Testers Talk
+            - button "Clear search query" [ref=e35] [cursor=pointer]:
+              - generic [ref=e38]:
+                - img
+          - button "Search" [ref=e42] [cursor=pointer]:
+            - generic [ref=e45]:
+              - img
+        - generic [ref=e47]:
+          - button "Search with your voice" [ref=e49] [cursor=pointer]:
+            - generic [ref=e53]:
+              - img
+          - tooltip "tooltip"
+      - generic [ref=e58]:
+        - button "Settings" [ref=e63] [cursor=pointer]:
+          - generic [ref=e66]:
+            - img
+        - link "Sign in" [ref=e69] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fwatch%253Fv%253DQKBa8lt5Wfo%2526list%253DPLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&hl=en&ec=65620
+          - generic [ref=e73]:
+            - img
+          - generic [ref=e74]: Sign in
+  - generic [ref=e78]:
+    - main [ref=e79]:
+      - generic [ref=e80]:
+        - generic [ref=e82]:
+          - complementary [ref=e89]:
+            - generic "YouTube Video Player" [ref=e92]:
+              - button "Channel watermark" [ref=e96] [cursor=pointer]:
+                - img "Channel watermark" [ref=e97]
+              - generic [ref=e100]:
+                - generic [ref=e101] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                  - slider "Seek slider" [ref=e102]
+                  - generic:
+                    - generic:
+                      - generic:
+                        - slider "Click or scroll the panel for the precise seeking."
+                - generic [ref=e318]:
+                  - generic [ref=e319]:
+                    - button "Pause (k)" [ref=e320] [cursor=pointer]:
+                      - img
+                    - button "Previous (SHIFT+p)" [ref=e321] [cursor=pointer]:
+                      - img
+                    - button "Next (SHIFT+n)" [ref=e322] [cursor=pointer]:
+                      - img
+                    - generic [ref=e323]:
+                      - button "Mute (m)" [ref=e325] [cursor=pointer]:
+                        - img
+                      - slider "Volume"
+                    - button "0 Minutes 3 Seconds of 2 Hours 43 Minutes 37 Seconds" [ref=e329] [cursor=pointer]: 0:03 / 2:43:37
+                    - button "API Testing Tutorial Postman Tutorial overview" [ref=e331] [cursor=pointer]:
+                      - generic "API Testing Tutorial Postman Tutorial overview" [ref=e332]
+                      - generic [ref=e333]:
+                        - img
+                  - generic [ref=e334]:
+                    - generic [ref=e335]:
+                      - button "Subtitles/closed captions (c)" [ref=e336] [cursor=pointer]:
+                        - generic [ref=e337]:
+                          - img
+                      - button "Settings" [ref=e338] [cursor=pointer]:
+                        - img
+                    - generic [ref=e339]:
+                      - button "Theater mode (t)" [ref=e340] [cursor=pointer]:
+                        - img
+                      - button "Full screen (f)" [ref=e341] [cursor=pointer]:
+                        - img
+          - generic [ref=e342]:
+            - generic [ref=e344]:
+              - heading "API Testing Postman Tutorial Full Course 2024" [level=1] [ref=e346]
+              - generic [ref=e347]:
+                - generic [ref=e348]:
+                  - generic [ref=e349]:
+                    - link [ref=e350] [cursor=pointer]:
+                      - /url: /@testerstalk
+                    - generic [ref=e352]:
+                      - generic "Testers Talk" [ref=e356]:
+                        - link "Testers Talk" [ref=e357] [cursor=pointer]:
+                          - /url: /@testerstalk
+                      - generic "27.5 thousand subscribers" [ref=e358]: 27.5K subscribers
+                  - generic [ref=e361]:
+                    - img [ref=e364]
+                    - generic [ref=e368]:
+                      - button "Subscribe to Testers Talk." [ref=e370] [cursor=pointer]:
+                        - generic [ref=e371]: Subscribe
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - img
+                - generic [ref=e378]:
+                  - generic [ref=e379]:
+                    - generic [ref=e383]:
+                      - button "like this video along with 2,000 other people" [ref=e387] [cursor=pointer]:
+                        - generic [ref=e391]:
+                          - img
+                        - generic [ref=e392]: 2K
+                      - button "Dislike this video" [ref=e399] [cursor=pointer]:
+                        - generic [ref=e403]:
+                          - img
+                    - button "Share" [ref=e409] [cursor=pointer]:
+                      - generic [ref=e413]:
+                        - img
+                      - generic [ref=e414]: Share
+                  - generic [ref=e418]:
+                    - button "Save to playlist" [ref=e421] [cursor=pointer]:
+                      - generic [ref=e425]:
+                        - img
+                      - generic [ref=e426]: Save
+                    - generic [ref=e431]:
+                      - button "Download" [ref=e433] [cursor=pointer]:
+                        - generic [ref=e437]:
+                          - img
+                        - generic [ref=e438]: Download
+                      - tooltip "tooltip"
+                  - button "More actions" [ref=e443] [cursor=pointer]:
+                    - generic [ref=e447]:
+                      - img
+              - generic [ref=e453] [cursor=pointer]:
+                - generic [ref=e454]:
+                  - generic [ref=e456]:
+                    - text: 150K views 2 years ago
+                    - link "#bdd" [ref=e457]:
+                      - /url: /hashtag/bdd
+                    - link "#qa" [ref=e458]:
+                      - /url: /hashtag/qa
+                    - link "#automationtesting" [ref=e459]:
+                      - /url: /hashtag/automationtesting
+                  - tooltip "tooltip"
+                - generic [ref=e460]:
+                  - generic [ref=e461]:
+                    - generic [ref=e464]:
+                      - text: API Testing Postman Tutorial Full Course | Postman Tutorial | Rest API Testing Tutorial | Restful Webservices
+                      - link "#apitesting" [ref=e466]:
+                        - /url: /hashtag/apitesting
+                      - link "#postman" [ref=e468]:
+                        - /url: /hashtag/postman
+                      - link "#restapi" [ref=e470]:
+                        - /url: /hashtag/restapi
+                      - link "#tutorials" [ref=e472]:
+                        - /url: /hashtag/tutorials
+                    - generic: …
+                  - button "...more" [ref=e473]
+            - text: •
+        - generic [ref=e548]:
+          - generic [ref=e550]:
+            - generic [ref=e552]:
+              - generic [ref=e553]:
+                - generic [ref=e554]:
+                  - heading "API Testing by Testers Talk☑️" [level=3] [ref=e555]:
+                    - generic "API Testing by Testers Talk☑️" [ref=e556]:
+                      - link "API Testing by Testers Talk☑️" [ref=e557] [cursor=pointer]:
+                        - /url: /playlist?list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5
+                  - generic [ref=e558]:
+                    - generic "Testers Talk" [ref=e559]:
+                      - link "Testers Talk" [ref=e560] [cursor=pointer]:
+                        - /url: /@testerstalk
+                    - generic [ref=e561]:
+                      - text: "-"
+                      - generic [ref=e562]: 1 / 36
+                - button "Collapse" [ref=e564] [cursor=pointer]:
+                  - generic [ref=e567]:
+                    - img
+              - generic [ref=e568]:
+                - generic [ref=e572]:
+                  - generic [ref=e575]:
+                    - button "Loop playlist" [ref=e577] [cursor=pointer]:
+                      - generic [ref=e581]:
+                        - img
+                    - tooltip "tooltip"
+                  - generic [ref=e585]:
+                    - button "Shuffle playlist" [ref=e587] [cursor=pointer]:
+                      - generic [ref=e591]:
+                        - img
+                    - tooltip "tooltip"
+                - button "Action menu" [ref=e599] [cursor=pointer]:
+                  - generic [ref=e602]:
+                    - img
+            - generic [ref=e603]:
+              - generic [ref=e604]:
+                - link "API Testing Postman Tutorial Full Course 2024 2 hours, 43 minutes Testers Talk" [ref=e605] [cursor=pointer]:
+                  - /url: /watch?v=QKBa8lt5Wfo&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=1&pp=iAQB
+                  - generic [ref=e606]:
+                    - generic [ref=e611]:
+                      - img
+                    - link [ref=e614]:
+                      - /url: /watch?v=QKBa8lt5Wfo&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=1&pp=iAQB
+                      - img [ref=e618]:
+                        - generic [ref=e619]: 2:43:38
+                      - generic:
+                        - generic:
+                          - img
+                    - generic [ref=e620]:
+                      - heading "API Testing Postman Tutorial Full Course 2024 2 hours, 43 minutes" [level=4] [ref=e621]:
+                        - generic "API Testing Postman Tutorial Full Course 2024 2 hours, 43 minutes" [ref=e622]: API Testing Postman Tutorial Full Course 2024
+                      - generic [ref=e624]: Testers Talk
+                - button "Action menu" [ref=e628] [cursor=pointer]:
+                  - generic [ref=e631]:
+                    - img
+              - generic [ref=e632]:
+                - link "2 REST Assured API Testing Tutorial Crash Course 2024 4 hours, 6 minutes Testers Talk" [ref=e633] [cursor=pointer]:
+                  - /url: /watch?v=o9KJhGHl49M&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=2&pp=iAQB
+                  - generic [ref=e634]:
+                    - generic [ref=e636]: "2"
+                    - link [ref=e639]:
+                      - /url: /watch?v=o9KJhGHl49M&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=2&pp=iAQB
+                      - img [ref=e643]:
+                        - generic [ref=e644]: 4:06:41
+                      - generic:
+                        - generic:
+                          - img
+                    - generic [ref=e645]:
+                      - heading "REST Assured API Testing Tutorial Crash Course 2024 4 hours, 6 minutes" [level=4] [ref=e646]:
+                        - generic "REST Assured API Testing Tutorial Crash Course 2024 4 hours, 6 minutes" [ref=e647]: REST Assured API Testing Tutorial Crash Course 2024
+                      - generic [ref=e649]: Testers Talk
+                - button "Action menu" [ref=e653] [cursor=pointer]:
+                  - generic [ref=e656]:
+                    - img
+              - generic [ref=e657]:
+                - link "3 Advanced REST Assured API Automation Framework Full Course 2024 3 hours, 15 minutes Testers Talk" [ref=e658] [cursor=pointer]:
+                  - /url: /watch?v=kay86__5eTg&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=3&pp=iAQB
+                  - generic [ref=e659]:
+                    - generic [ref=e661]: "3"
+                    - link [ref=e664]:
+                      - /url: /watch?v=kay86__5eTg&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=3&pp=iAQB
+                      - img [ref=e668]:
+                        - generic [ref=e669]: 3:15:25
+                      - generic:
+                        - generic:
+                          - img
+                    - generic [ref=e670]:
+                      - heading "Advanced REST Assured API Automation Framework Full Course 2024 3 hours, 15 minutes" [level=4] [ref=e671]:
+                        - generic "Advanced REST Assured API Automation Framework Full Course 2024 3 hours, 15 minutes" [ref=e672]: Advanced REST Assured API Automation Framework Full Course 2024
+                      - generic [ref=e674]: Testers Talk
+                - button "Action menu" [ref=e678] [cursor=pointer]:
+                  - generic [ref=e681]:
+                    - img
+              - generic [ref=e682]:
+                - link "4 Postman API Testing Tutorial Chapter-01 | Postman API Testing Tutorial for Beginners 34 minutes Testers Talk" [ref=e683] [cursor=pointer]:
+                  - /url: /watch?v=Yi2J-AJiFMs&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=4&pp=iAQB
+                  - generic [ref=e684]:
+                    - generic [ref=e686]: "4"
+                    - link [ref=e689]:
+                      - /url: /watch?v=Yi2J-AJiFMs&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=4&pp=iAQB
+                      - img [ref=e693]:
+                        - generic [ref=e694]: 34:11
+                      - generic:
+                        - generic:
+                          - img
+                    - generic [ref=e695]:
+                      - heading "Postman API Testing Tutorial Chapter-01 | Postman API Testing Tutorial for Beginners 34 minutes" [level=4] [ref=e696]:
+                        - generic "Postman API Testing Tutorial Chapter-01 | Postman API Testing Tutorial for Beginners 34 minutes" [ref=e697]: Postman API Testing Tutorial Chapter-01 | Postman API Testing Tutorial for Beginners
+                      - generic [ref=e699]: Testers Talk
+                - button "Action menu" [ref=e703] [cursor=pointer]:
+                  - generic [ref=e706]:
+                    - img
+              - generic [ref=e707]:
+                - link "5 Postman API Testing Tutorial Chapter-02 | Postman API Testing Tutorial for Beginners 39 minutes Testers Talk" [ref=e708] [cursor=pointer]:
+                  - /url: /watch?v=IhlZKYw55kM&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=5&pp=iAQB
+                  - generic [ref=e709]:
+                    - generic [ref=e711]: "5"
+                    - link [ref=e714]:
+                      - /url: /watch?v=IhlZKYw55kM&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=5&pp=iAQB
+                      - img [ref=e718]:
+                        - generic [ref=e719]: 39:14
+                      - generic:
+                        - generic:
+                          - img
+                    - generic [ref=e720]:
+                      - heading "Postman API Testing Tutorial Chapter-02 | Postman API Testing Tutorial for Beginners 39 minutes" [level=4] [ref=e721]:
+                        - generic "Postman API Testing Tutorial Chapter-02 | Postman API Testing Tutorial for Beginners 39 minutes" [ref=e722]: Postman API Testing Tutorial Chapter-02 | Postman API Testing Tutorial for Beginners
+                      - generic [ref=e724]: Testers Talk
+                - button "Action menu" [ref=e728] [cursor=pointer]:
+                  - generic [ref=e731]:
+                    - img
+              - generic [ref=e732]:
+                - link "6 Postman API Testing Tutorial Chapter-03 | Postman API Testing Tutorial for Beginners 20 minutes Testers Talk" [ref=e733] [cursor=pointer]:
+                  - /url: /watch?v=eFjZjTk45fs&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=6&pp=iAQB
+                  - generic [ref=e734]:
+                    - generic [ref=e736]: "6"
+                    - link [ref=e739]:
+                      - /url: /watch?v=eFjZjTk45fs&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=6&pp=iAQB
+                    - generic [ref=e741]:
+                      - heading "Postman API Testing Tutorial Chapter-03 | Postman API Testing Tutorial for Beginners 20 minutes" [level=4] [ref=e742]:
+                        - generic "Postman API Testing Tutorial Chapter-03 | Postman API Testing Tutorial for Beginners 20 minutes" [ref=e743]: Postman API Testing Tutorial Chapter-03 | Postman API Testing Tutorial for Beginners
+                      - generic [ref=e745]: Testers Talk
+                - button "Action menu" [ref=e749] [cursor=pointer]:
+                  - generic [ref=e752]:
+                    - img
+              - generic [ref=e753]:
+                - link "7 Postman API Testing Tutorial Chapter-04 | Postman API Testing Tutorial for Beginners 17 minutes Testers Talk" [ref=e754] [cursor=pointer]:
+                  - /url: /watch?v=UwH7VgOjIS0&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=7&pp=iAQB
+                  - generic [ref=e755]:
+                    - generic [ref=e757]: "7"
+                    - link [ref=e760]:
+                      - /url: /watch?v=UwH7VgOjIS0&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=7&pp=iAQB
+                    - generic [ref=e762]:
+                      - heading "Postman API Testing Tutorial Chapter-04 | Postman API Testing Tutorial for Beginners 17 minutes" [level=4] [ref=e763]:
+                        - generic "Postman API Testing Tutorial Chapter-04 | Postman API Testing Tutorial for Beginners 17 minutes" [ref=e764]: Postman API Testing Tutorial Chapter-04 | Postman API Testing Tutorial for Beginners
+                      - generic [ref=e766]: Testers Talk
+                - button "Action menu" [ref=e770] [cursor=pointer]:
+                  - generic [ref=e773]:
+                    - img
+              - generic [ref=e774]:
+                - link "8 Postman API Testing Tutorial Chapter-05 | JSON Schema Validation in Postman | PATCH API Request 15 minutes Testers Talk" [ref=e775] [cursor=pointer]:
+                  - /url: /watch?v=XvV6Moms9xQ&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=8&pp=iAQB
+                  - generic [ref=e776]:
+                    - generic [ref=e778]: "8"
+                    - link [ref=e781]:
+                      - /url: /watch?v=XvV6Moms9xQ&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=8&pp=iAQB
+                    - generic [ref=e783]:
+                      - heading "Postman API Testing Tutorial Chapter-05 | JSON Schema Validation in Postman | PATCH API Request 15 minutes" [level=4] [ref=e784]:
+                        - generic "Postman API Testing Tutorial Chapter-05 | JSON Schema Validation in Postman | PATCH API Request 15 minutes" [ref=e785]: Postman API Testing Tutorial Chapter-05 | JSON Schema Validation in Postman | PATCH API Request
+                      - generic [ref=e787]: Testers Talk
+                - button "Action menu" [ref=e791] [cursor=pointer]:
+                  - generic [ref=e794]:
+                    - img
+              - generic [ref=e795]:
+                - link "9 Postman API Testing Tutorial Chapter-06 | Data Driven Testing in Postman Using JSON File 13 minutes, 43 seconds Testers Talk" [ref=e796] [cursor=pointer]:
+                  - /url: /watch?v=1LPopgYgldg&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=9&pp=iAQB
+                  - generic [ref=e797]:
+                    - generic [ref=e799]: "9"
+                    - link [ref=e802]:
+                      - /url: /watch?v=1LPopgYgldg&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=9&pp=iAQB
+                    - generic [ref=e804]:
+                      - heading "Postman API Testing Tutorial Chapter-06 | Data Driven Testing in Postman Using JSON File 13 minutes, 43 seconds" [level=4] [ref=e805]:
+                        - generic "Postman API Testing Tutorial Chapter-06 | Data Driven Testing in Postman Using JSON File 13 minutes, 43 seconds" [ref=e806]: Postman API Testing Tutorial Chapter-06 | Data Driven Testing in Postman Using JSON File
+                      - generic [ref=e808]: Testers Talk
+                - button "Action menu" [ref=e812] [cursor=pointer]:
+                  - generic [ref=e815]:
+                    - img
+              - generic [ref=e816]:
+                - link "10 Postman API Testing Tutorial Chapter-07 | Data Driven Testing in Postman using CSV File 5 minutes, 47 seconds Testers Talk" [ref=e817] [cursor=pointer]:
+                  - /url: /watch?v=0plU99tpfPE&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=10&pp=iAQB
+                  - generic [ref=e818]:
+                    - generic [ref=e820]: "10"
+                    - link [ref=e823]:
+                      - /url: /watch?v=0plU99tpfPE&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=10&pp=iAQB
+                    - generic [ref=e825]:
+                      - heading "Postman API Testing Tutorial Chapter-07 | Data Driven Testing in Postman using CSV File 5 minutes, 47 seconds" [level=4] [ref=e826]:
+                        - generic "Postman API Testing Tutorial Chapter-07 | Data Driven Testing in Postman using CSV File 5 minutes, 47 seconds" [ref=e827]: Postman API Testing Tutorial Chapter-07 | Data Driven Testing in Postman using CSV File
+                      - generic [ref=e829]: Testers Talk
+                - button "Action menu" [ref=e833] [cursor=pointer]:
+                  - generic [ref=e836]:
+                    - img
+              - generic [ref=e837]:
+                - link "11 Postman API Testing Tutorial Chapter-08| Run Postman Collections in Jenkins | Newman Report 13 minutes, 47 seconds Testers Talk" [ref=e838] [cursor=pointer]:
+                  - /url: /watch?v=o6RgVvlaZTs&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=11&pp=iAQB
+                  - generic [ref=e839]:
+                    - generic [ref=e841]: "11"
+                    - link [ref=e844]:
+                      - /url: /watch?v=o6RgVvlaZTs&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=11&pp=iAQB
+                    - generic [ref=e846]:
+                      - heading "Postman API Testing Tutorial Chapter-08| Run Postman Collections in Jenkins | Newman Report 13 minutes, 47 seconds" [level=4] [ref=e847]:
+                        - generic "Postman API Testing Tutorial Chapter-08| Run Postman Collections in Jenkins | Newman Report 13 minutes, 47 seconds" [ref=e848]: Postman API Testing Tutorial Chapter-08| Run Postman Collections in Jenkins | Newman Report
+                      - generic [ref=e850]: Testers Talk
+                - button "Action menu" [ref=e854] [cursor=pointer]:
+                  - generic [ref=e857]:
+                    - img
+              - generic [ref=e858]:
+                - link "12 How to Upload File in Postman Tutorial-09 | Form-Data | Binary 12 minutes, 30 seconds Testers Talk" [ref=e859] [cursor=pointer]:
+                  - /url: /watch?v=50Dq7V4Iv2s&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=12&pp=iAQB
+                  - generic [ref=e860]:
+                    - generic [ref=e862]: "12"
+                    - link [ref=e865]:
+                      - /url: /watch?v=50Dq7V4Iv2s&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=12&pp=iAQB
+                    - generic [ref=e867]:
+                      - heading "How to Upload File in Postman Tutorial-09 | Form-Data | Binary 12 minutes, 30 seconds" [level=4] [ref=e868]:
+                        - generic "How to Upload File in Postman Tutorial-09 | Form-Data | Binary 12 minutes, 30 seconds" [ref=e869]: How to Upload File in Postman Tutorial-09 | Form-Data | Binary
+                      - generic [ref=e871]: Testers Talk
+                - button "Action menu" [ref=e875] [cursor=pointer]:
+                  - generic [ref=e878]:
+                    - img
+              - generic [ref=e879]:
+                - link "13 Cookies in Postman Tutorial-10 | Set Cookies Get Cookies Delete Cookies in Postman 23 minutes Testers Talk" [ref=e880] [cursor=pointer]:
+                  - /url: /watch?v=AZVOCNO_pv0&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=13&pp=iAQB
+                  - generic [ref=e881]:
+                    - generic [ref=e883]: "13"
+                    - link [ref=e886]:
+                      - /url: /watch?v=AZVOCNO_pv0&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=13&pp=iAQB
+                    - generic [ref=e888]:
+                      - heading "Cookies in Postman Tutorial-10 | Set Cookies Get Cookies Delete Cookies in Postman 23 minutes" [level=4] [ref=e889]:
+                        - generic "Cookies in Postman Tutorial-10 | Set Cookies Get Cookies Delete Cookies in Postman 23 minutes" [ref=e890]: Cookies in Postman Tutorial-10 | Set Cookies Get Cookies Delete Cookies in Postman
+                      - generic [ref=e892]: Testers Talk
+                - button "Action menu" [ref=e896] [cursor=pointer]:
+                  - generic [ref=e899]:
+                    - img
+              - generic [ref=e900]:
+                - link "14 Basic Auth in Postman Tutorial-11 11 minutes, 50 seconds Testers Talk" [ref=e901] [cursor=pointer]:
+                  - /url: /watch?v=BTFA3topFKk&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=14&pp=iAQB
+                  - generic [ref=e902]:
+                    - generic [ref=e904]: "14"
+                    - link [ref=e907]:
+                      - /url: /watch?v=BTFA3topFKk&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=14&pp=iAQB
+                    - generic [ref=e909]:
+                      - heading "Basic Auth in Postman Tutorial-11 11 minutes, 50 seconds" [level=4] [ref=e910]:
+                        - generic "Basic Auth in Postman Tutorial-11 11 minutes, 50 seconds" [ref=e911]: Basic Auth in Postman Tutorial-11
+                      - generic [ref=e913]: Testers Talk
+                - button "Action menu" [ref=e917] [cursor=pointer]:
+                  - generic [ref=e920]:
+                    - img
+              - generic [ref=e921]:
+                - link "15 Variables in Postman Tutorial-12 | Local Environment Global Variables 24 minutes Testers Talk" [ref=e922] [cursor=pointer]:
+                  - /url: /watch?v=oSx0SAzHzek&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=15&pp=iAQB
+                  - generic [ref=e923]:
+                    - generic [ref=e925]: "15"
+                    - link [ref=e928]:
+                      - /url: /watch?v=oSx0SAzHzek&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=15&pp=iAQB
+                    - generic [ref=e930]:
+                      - heading "Variables in Postman Tutorial-12 | Local Environment Global Variables 24 minutes" [level=4] [ref=e931]:
+                        - generic "Variables in Postman Tutorial-12 | Local Environment Global Variables 24 minutes" [ref=e932]: Variables in Postman Tutorial-12 | Local Environment Global Variables
+                      - generic [ref=e934]: Testers Talk
+                - button "Action menu" [ref=e938] [cursor=pointer]:
+                  - generic [ref=e941]:
+                    - img
+              - generic [ref=e942]:
+                - link "16 Postman Integration with GitHub and Jenkins-13 19 minutes Testers Talk" [ref=e943] [cursor=pointer]:
+                  - /url: /watch?v=YcpNEQd5P4E&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=16&pp=iAQB
+                  - generic [ref=e944]:
+                    - generic [ref=e946]: "16"
+                    - link [ref=e949]:
+                      - /url: /watch?v=YcpNEQd5P4E&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=16&pp=iAQB
+                    - generic [ref=e951]:
+                      - heading "Postman Integration with GitHub and Jenkins-13 19 minutes" [level=4] [ref=e952]:
+                        - generic "Postman Integration with GitHub and Jenkins-13 19 minutes" [ref=e953]: Postman Integration with GitHub and Jenkins-13
+                      - generic [ref=e955]: Testers Talk
+                - button "Action menu" [ref=e959] [cursor=pointer]:
+                  - generic [ref=e962]:
+                    - img
+              - generic [ref=e963]:
+                - link "17 REST Assured API Testing Tutorial Chapter-01| Getting Started | POST GET Request | Validation |Logs 1 hour, 30 minutes Testers Talk" [ref=e964] [cursor=pointer]:
+                  - /url: /watch?v=H3GnfZjIv_E&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=17&pp=iAQB
+                  - generic [ref=e965]:
+                    - generic [ref=e967]: "17"
+                    - link [ref=e970]:
+                      - /url: /watch?v=H3GnfZjIv_E&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=17&pp=iAQB
+                    - generic [ref=e972]:
+                      - heading "REST Assured API Testing Tutorial Chapter-01| Getting Started | POST GET Request | Validation |Logs 1 hour, 30 minutes" [level=4] [ref=e973]:
+                        - generic "REST Assured API Testing Tutorial Chapter-01| Getting Started | POST GET Request | Validation |Logs 1 hour, 30 minutes" [ref=e974]: REST Assured API Testing Tutorial Chapter-01| Getting Started | POST GET Request | Validation |Logs
+                      - generic [ref=e976]: Testers Talk
+                - button "Action menu" [ref=e980] [cursor=pointer]:
+                  - generic [ref=e983]:
+                    - img
+              - generic [ref=e984]:
+                - link "18 REST Assured API Testing Tutorial Chapter-02 | POST Request Using File | API Chaining | JSON Path 41 minutes Testers Talk" [ref=e985] [cursor=pointer]:
+                  - /url: /watch?v=VL3M4_sEdQE&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=18&pp=iAQB
+                  - generic [ref=e986]:
+                    - generic [ref=e988]: "18"
+                    - link [ref=e991]:
+                      - /url: /watch?v=VL3M4_sEdQE&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=18&pp=iAQB
+                    - generic [ref=e993]:
+                      - heading "REST Assured API Testing Tutorial Chapter-02 | POST Request Using File | API Chaining | JSON Path 41 minutes" [level=4] [ref=e994]:
+                        - generic "REST Assured API Testing Tutorial Chapter-02 | POST Request Using File | API Chaining | JSON Path 41 minutes" [ref=e995]: REST Assured API Testing Tutorial Chapter-02 | POST Request Using File | API Chaining | JSON Path
+                      - generic [ref=e997]: Testers Talk
+                - button "Action menu" [ref=e1001] [cursor=pointer]:
+                  - generic [ref=e1004]:
+                    - img
+              - generic [ref=e1005]:
+                - link "19 REST Assured API Testing Tutorial-03 | JSON Schema Validation,POJO's, Serialization De-Serialization 50 minutes Testers Talk" [ref=e1006] [cursor=pointer]:
+                  - /url: /watch?v=jIGpZP-aWu8&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=19&pp=iAQB
+                  - generic [ref=e1007]:
+                    - generic [ref=e1009]: "19"
+                    - link [ref=e1012]:
+                      - /url: /watch?v=jIGpZP-aWu8&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=19&pp=iAQB
+                    - generic [ref=e1014]:
+                      - heading "REST Assured API Testing Tutorial-03 | JSON Schema Validation,POJO's, Serialization De-Serialization 50 minutes" [level=4] [ref=e1015]:
+                        - generic "REST Assured API Testing Tutorial-03 | JSON Schema Validation,POJO's, Serialization De-Serialization 50 minutes" [ref=e1016]: REST Assured API Testing Tutorial-03 | JSON Schema Validation,POJO's, Serialization De-Serialization
+                      - generic [ref=e1018]: Testers Talk
+                - button "Action menu" [ref=e1022] [cursor=pointer]:
+                  - generic [ref=e1025]:
+                    - img
+              - generic [ref=e1026]:
+                - link "20 REST Assured API Testing Tutorial-04 | PUT API Request | PATCH API Request | JWT (JSON Web Token) 40 minutes Testers Talk" [ref=e1027] [cursor=pointer]:
+                  - /url: /watch?v=5ZOKjg6klG8&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=20&pp=iAQB
+                  - generic [ref=e1028]:
+                    - generic [ref=e1030]: "20"
+                    - link [ref=e1033]:
+                      - /url: /watch?v=5ZOKjg6klG8&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=20&pp=iAQB
+                    - generic [ref=e1035]:
+                      - heading "REST Assured API Testing Tutorial-04 | PUT API Request | PATCH API Request | JWT (JSON Web Token) 40 minutes" [level=4] [ref=e1036]:
+                        - generic "REST Assured API Testing Tutorial-04 | PUT API Request | PATCH API Request | JWT (JSON Web Token) 40 minutes" [ref=e1037]: REST Assured API Testing Tutorial-04 | PUT API Request | PATCH API Request | JWT (JSON Web Token)
+                      - generic [ref=e1039]: Testers Talk
+                - button "Action menu" [ref=e1043] [cursor=pointer]:
+                  - generic [ref=e1046]:
+                    - img
+              - generic [ref=e1047]:
+                - link "21 REST Assured API Testing Tutorial-05 | DELETE Request | Run Test from Command Prompt | Run Maven Pro 24 minutes Testers Talk" [ref=e1048] [cursor=pointer]:
+                  - /url: /watch?v=NxOUINAV-CU&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=21&pp=iAQB
+                  - generic [ref=e1049]:
+                    - generic [ref=e1051]: "21"
+                    - link [ref=e1054]:
+                      - /url: /watch?v=NxOUINAV-CU&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=21&pp=iAQB
+                    - generic [ref=e1056]:
+                      - heading "REST Assured API Testing Tutorial-05 | DELETE Request | Run Test from Command Prompt | Run Maven Pro 24 minutes" [level=4] [ref=e1057]:
+                        - generic "REST Assured API Testing Tutorial-05 | DELETE Request | Run Test from Command Prompt | Run Maven Pro 24 minutes" [ref=e1058]: REST Assured API Testing Tutorial-05 | DELETE Request | Run Test from Command Prompt | Run Maven Pro
+                      - generic [ref=e1060]: Testers Talk
+                - button "Action menu" [ref=e1064] [cursor=pointer]:
+                  - generic [ref=e1067]:
+                    - img
+              - generic [ref=e1068]:
+                - link "22 REST Assured API Testing Tutorial Chapter-06 | Log4j Logs in Rest Assured API Automation 39 minutes Testers Talk" [ref=e1069] [cursor=pointer]:
+                  - /url: /watch?v=0AW5k3AEoK8&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=22&pp=iAQB
+                  - generic [ref=e1070]:
+                    - generic [ref=e1072]: "22"
+                    - link [ref=e1075]:
+                      - /url: /watch?v=0AW5k3AEoK8&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=22&pp=iAQB
+                    - generic [ref=e1077]:
+                      - heading "REST Assured API Testing Tutorial Chapter-06 | Log4j Logs in Rest Assured API Automation 39 minutes" [level=4] [ref=e1078]:
+                        - generic "REST Assured API Testing Tutorial Chapter-06 | Log4j Logs in Rest Assured API Automation 39 minutes" [ref=e1079]: REST Assured API Testing Tutorial Chapter-06 | Log4j Logs in Rest Assured API Automation
+                      - generic [ref=e1081]: Testers Talk
+                - button "Action menu" [ref=e1085] [cursor=pointer]:
+                  - generic [ref=e1088]:
+                    - img
+              - generic [ref=e1089]:
+                - link "23 REST Assured API Testing Tutorial Chapter-07 | Allure Report in API Automation 34 minutes Testers Talk" [ref=e1090] [cursor=pointer]:
+                  - /url: /watch?v=CN0SLuQBmUs&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=23&pp=iAQB
+                  - generic [ref=e1091]:
+                    - generic [ref=e1093]: "23"
+                    - link [ref=e1096]:
+                      - /url: /watch?v=CN0SLuQBmUs&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=23&pp=iAQB
+                    - generic [ref=e1098]:
+                      - heading "REST Assured API Testing Tutorial Chapter-07 | Allure Report in API Automation 34 minutes" [level=4] [ref=e1099]:
+                        - generic "REST Assured API Testing Tutorial Chapter-07 | Allure Report in API Automation 34 minutes" [ref=e1100]: REST Assured API Testing Tutorial Chapter-07 | Allure Report in API Automation
+                      - generic [ref=e1102]: Testers Talk
+                - button "Action menu" [ref=e1106] [cursor=pointer]:
+                  - generic [ref=e1109]:
+                    - img
+              - generic [ref=e1110]:
+                - link "24 REST Assured API Testing Tutorial Chapter-08 | Data Driven Testing in Rest Assured using JSON File 26 minutes Testers Talk" [ref=e1111] [cursor=pointer]:
+                  - /url: /watch?v=p8GKV_CzjvQ&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=24&pp=iAQB
+                  - generic [ref=e1112]:
+                    - generic [ref=e1114]: "24"
+                    - link [ref=e1117]:
+                      - /url: /watch?v=p8GKV_CzjvQ&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=24&pp=iAQB
+                    - generic [ref=e1119]:
+                      - heading "REST Assured API Testing Tutorial Chapter-08 | Data Driven Testing in Rest Assured using JSON File 26 minutes" [level=4] [ref=e1120]:
+                        - generic "REST Assured API Testing Tutorial Chapter-08 | Data Driven Testing in Rest Assured using JSON File 26 minutes" [ref=e1121]: REST Assured API Testing Tutorial Chapter-08 | Data Driven Testing in Rest Assured using JSON File
+                      - generic [ref=e1123]: Testers Talk
+                - button "Action menu" [ref=e1127] [cursor=pointer]:
+                  - generic [ref=e1130]:
+                    - img
+              - generic [ref=e1131]:
+                - link "25 REST Assured API Testing Tutorial Chapter-09 | Data Driven Testing in Rest Assured using CSV 36 minutes Testers Talk" [ref=e1132] [cursor=pointer]:
+                  - /url: /watch?v=hnNsHXwpZvU&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=25&pp=iAQB
+                  - generic [ref=e1133]:
+                    - generic [ref=e1135]: "25"
+                    - link [ref=e1138]:
+                      - /url: /watch?v=hnNsHXwpZvU&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=25&pp=iAQB
+                    - generic [ref=e1140]:
+                      - heading "REST Assured API Testing Tutorial Chapter-09 | Data Driven Testing in Rest Assured using CSV 36 minutes" [level=4] [ref=e1141]:
+                        - generic "REST Assured API Testing Tutorial Chapter-09 | Data Driven Testing in Rest Assured using CSV 36 minutes" [ref=e1142]: REST Assured API Testing Tutorial Chapter-09 | Data Driven Testing in Rest Assured using CSV
+                      - generic [ref=e1144]: Testers Talk
+                - button "Action menu" [ref=e1148] [cursor=pointer]:
+                  - generic [ref=e1151]:
+                    - img
+              - generic [ref=e1152]:
+                - link "26 REST Assured API Testing Tutorial Chapter-10 | Data Driven Testing in Rest Assured using Excel 37 minutes Testers Talk" [ref=e1153] [cursor=pointer]:
+                  - /url: /watch?v=-FXinow5B80&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=26&pp=iAQB
+                  - generic [ref=e1154]:
+                    - generic [ref=e1156]: "26"
+                    - link [ref=e1159]:
+                      - /url: /watch?v=-FXinow5B80&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=26&pp=iAQB
+                    - generic [ref=e1161]:
+                      - heading "REST Assured API Testing Tutorial Chapter-10 | Data Driven Testing in Rest Assured using Excel 37 minutes" [level=4] [ref=e1162]:
+                        - generic "REST Assured API Testing Tutorial Chapter-10 | Data Driven Testing in Rest Assured using Excel 37 minutes" [ref=e1163]: REST Assured API Testing Tutorial Chapter-10 | Data Driven Testing in Rest Assured using Excel
+                      - generic [ref=e1165]: Testers Talk
+                - button "Action menu" [ref=e1169] [cursor=pointer]:
+                  - generic [ref=e1172]:
+                    - img
+              - generic [ref=e1173]:
+                - link "27 REST Assured API Testing Tutorial Chapter-11 | Integrate Jenkins with GitHub | Allure Report 21 minutes Testers Talk" [ref=e1174] [cursor=pointer]:
+                  - /url: /watch?v=OcPWFLKA1As&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=27&pp=iAQB
+                  - generic [ref=e1175]:
+                    - generic [ref=e1177]: "27"
+                    - link [ref=e1180]:
+                      - /url: /watch?v=OcPWFLKA1As&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=27&pp=iAQB
+                    - generic [ref=e1182]:
+                      - heading "REST Assured API Testing Tutorial Chapter-11 | Integrate Jenkins with GitHub | Allure Report 21 minutes" [level=4] [ref=e1183]:
+                        - generic "REST Assured API Testing Tutorial Chapter-11 | Integrate Jenkins with GitHub | Allure Report 21 minutes" [ref=e1184]: REST Assured API Testing Tutorial Chapter-11 | Integrate Jenkins with GitHub | Allure Report
+                      - generic [ref=e1186]: Testers Talk
+                - button "Action menu" [ref=e1190] [cursor=pointer]:
+                  - generic [ref=e1193]:
+                    - img
+              - generic [ref=e1194]:
+                - link "28 How to Run Tests Based on Yes or No Flag from Excel File in Automation Testing | Chapter-12|Selenium 40 minutes Testers Talk" [ref=e1195] [cursor=pointer]:
+                  - /url: /watch?v=0eTq3QJ0Xt8&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=28&pp=iAQB
+                  - generic [ref=e1196]:
+                    - generic [ref=e1198]: "28"
+                    - link [ref=e1201]:
+                      - /url: /watch?v=0eTq3QJ0Xt8&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=28&pp=iAQB
+                    - generic [ref=e1203]:
+                      - heading "How to Run Tests Based on Yes or No Flag from Excel File in Automation Testing | Chapter-12|Selenium 40 minutes" [level=4] [ref=e1204]:
+                        - generic "How to Run Tests Based on Yes or No Flag from Excel File in Automation Testing | Chapter-12|Selenium 40 minutes" [ref=e1205]: How to Run Tests Based on Yes or No Flag from Excel File in Automation Testing | Chapter-12|Selenium
+                      - generic [ref=e1207]: Testers Talk
+                - button "Action menu" [ref=e1211] [cursor=pointer]:
+                  - generic [ref=e1214]:
+                    - img
+              - generic [ref=e1215]:
+                - link "29 How to Retry ReRun Steps in Automation Testing Framework | Chapter-13 | Rest Assured | Selenium 14 minutes, 12 seconds Testers Talk" [ref=e1216] [cursor=pointer]:
+                  - /url: /watch?v=MwY4VP3lQ7I&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=29&pp=iAQB
+                  - generic [ref=e1217]:
+                    - generic [ref=e1219]: "29"
+                    - link [ref=e1222]:
+                      - /url: /watch?v=MwY4VP3lQ7I&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=29&pp=iAQB
+                    - generic [ref=e1224]:
+                      - heading "How to Retry ReRun Steps in Automation Testing Framework | Chapter-13 | Rest Assured | Selenium 14 minutes, 12 seconds" [level=4] [ref=e1225]:
+                        - generic "How to Retry ReRun Steps in Automation Testing Framework | Chapter-13 | Rest Assured | Selenium 14 minutes, 12 seconds" [ref=e1226]: How to Retry ReRun Steps in Automation Testing Framework | Chapter-13 | Rest Assured | Selenium
+                      - generic [ref=e1228]: Testers Talk
+                - button "Action menu" [ref=e1232] [cursor=pointer]:
+                  - generic [ref=e1235]:
+                    - img
+              - generic [ref=e1236]:
+                - link "30 How to Create Dynamic API Request Body in API Automation Testing Framework | Rest Assured |Chapter14 22 minutes Testers Talk" [ref=e1237] [cursor=pointer]:
+                  - /url: /watch?v=cR3m3Ua7nII&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=30&pp=iAQB
+                  - generic [ref=e1238]:
+                    - generic [ref=e1240]: "30"
+                    - link [ref=e1243]:
+                      - /url: /watch?v=cR3m3Ua7nII&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=30&pp=iAQB
+                    - generic [ref=e1245]:
+                      - heading "How to Create Dynamic API Request Body in API Automation Testing Framework | Rest Assured |Chapter14 22 minutes" [level=4] [ref=e1246]:
+                        - generic "How to Create Dynamic API Request Body in API Automation Testing Framework | Rest Assured |Chapter14 22 minutes" [ref=e1247]: How to Create Dynamic API Request Body in API Automation Testing Framework | Rest Assured |Chapter14
+                      - generic [ref=e1249]: Testers Talk
+                - button "Action menu" [ref=e1253] [cursor=pointer]:
+                  - generic [ref=e1256]:
+                    - img
+              - generic [ref=e1257]:
+                - link "31 How to Run Multiple TestNG Suite Files at One Click | Rest Assured | Selenium | TestNG | Chapter-15 11 minutes, 2 seconds Testers Talk" [ref=e1258] [cursor=pointer]:
+                  - /url: /watch?v=2QfqIjrhiOw&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=31&pp=iAQB
+                  - generic [ref=e1259]:
+                    - generic [ref=e1261]: "31"
+                    - link [ref=e1264]:
+                      - /url: /watch?v=2QfqIjrhiOw&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=31&pp=iAQB
+                    - generic [ref=e1266]:
+                      - heading "How to Run Multiple TestNG Suite Files at One Click | Rest Assured | Selenium | TestNG | Chapter-15 11 minutes, 2 seconds" [level=4] [ref=e1267]:
+                        - generic "How to Run Multiple TestNG Suite Files at One Click | Rest Assured | Selenium | TestNG | Chapter-15 11 minutes, 2 seconds" [ref=e1268]: How to Run Multiple TestNG Suite Files at One Click | Rest Assured | Selenium | TestNG | Chapter-15
+                      - generic [ref=e1270]: Testers Talk
+                - button "Action menu" [ref=e1274] [cursor=pointer]:
+                  - generic [ref=e1277]:
+                    - img
+              - generic [ref=e1278]:
+                - link "32 How to ReRun Retry Failed Test Programmatically in Automation Testing Framework | Chapter 16 21 minutes Testers Talk" [ref=e1279] [cursor=pointer]:
+                  - /url: /watch?v=iCoWZDLCkRw&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=32&pp=iAQB
+                  - generic [ref=e1280]:
+                    - generic [ref=e1282]: "32"
+                    - link [ref=e1285]:
+                      - /url: /watch?v=iCoWZDLCkRw&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=32&pp=iAQB
+                    - generic [ref=e1287]:
+                      - heading "How to ReRun Retry Failed Test Programmatically in Automation Testing Framework | Chapter 16 21 minutes" [level=4] [ref=e1288]:
+                        - generic "How to ReRun Retry Failed Test Programmatically in Automation Testing Framework | Chapter 16 21 minutes" [ref=e1289]: How to ReRun Retry Failed Test Programmatically in Automation Testing Framework | Chapter 16
+                      - generic [ref=e1291]: Testers Talk
+                - button "Action menu" [ref=e1295] [cursor=pointer]:
+                  - generic [ref=e1298]:
+                    - img
+              - generic [ref=e1299]:
+                - link "33 Cookies in Rest Assured API Automation Testing Tutorial | Chapter-18 16 minutes Testers Talk" [ref=e1300] [cursor=pointer]:
+                  - /url: /watch?v=A-np5dftKnI&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=33&pp=iAQB
+                  - generic [ref=e1301]:
+                    - generic [ref=e1303]: "33"
+                    - link [ref=e1306]:
+                      - /url: /watch?v=A-np5dftKnI&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=33&pp=iAQB
+                    - generic [ref=e1308]:
+                      - heading "Cookies in Rest Assured API Automation Testing Tutorial | Chapter-18 16 minutes" [level=4] [ref=e1309]:
+                        - generic "Cookies in Rest Assured API Automation Testing Tutorial | Chapter-18 16 minutes" [ref=e1310]: Cookies in Rest Assured API Automation Testing Tutorial | Chapter-18
+                      - generic [ref=e1312]: Testers Talk
+                - button "Action menu" [ref=e1316] [cursor=pointer]:
+                  - generic [ref=e1319]:
+                    - img
+              - generic [ref=e1320]:
+                - link "34 How to Upload File in Rest Assured API Automation Testing Tutorial | Chapter-17 11 minutes, 59 seconds Testers Talk" [ref=e1321] [cursor=pointer]:
+                  - /url: /watch?v=mN-tr73ZNtQ&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=34&pp=iAQB
+                  - generic [ref=e1322]:
+                    - generic [ref=e1324]: "34"
+                    - link [ref=e1327]:
+                      - /url: /watch?v=mN-tr73ZNtQ&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=34&pp=iAQB
+                    - generic [ref=e1329]:
+                      - heading "How to Upload File in Rest Assured API Automation Testing Tutorial | Chapter-17 11 minutes, 59 seconds" [level=4] [ref=e1330]:
+                        - generic "How to Upload File in Rest Assured API Automation Testing Tutorial | Chapter-17 11 minutes, 59 seconds" [ref=e1331]: How to Upload File in Rest Assured API Automation Testing Tutorial | Chapter-17
+                      - generic [ref=e1333]: Testers Talk
+                - button "Action menu" [ref=e1337] [cursor=pointer]:
+                  - generic [ref=e1340]:
+                    - img
+              - generic [ref=e1341]:
+                - link "35 Basic Auth in Rest Assured API Automation Testing Tutorial | Chapter-19 13 minutes, 19 seconds Testers Talk" [ref=e1342] [cursor=pointer]:
+                  - /url: /watch?v=Q7CV5_y9kEE&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=35&pp=iAQB0gcJCU0KAYcqIYzv
+                  - generic [ref=e1343]:
+                    - generic [ref=e1345]: "35"
+                    - link [ref=e1348]:
+                      - /url: /watch?v=Q7CV5_y9kEE&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=35&pp=iAQB0gcJCU0KAYcqIYzv
+                    - generic [ref=e1350]:
+                      - heading "Basic Auth in Rest Assured API Automation Testing Tutorial | Chapter-19 13 minutes, 19 seconds" [level=4] [ref=e1351]:
+                        - generic "Basic Auth in Rest Assured API Automation Testing Tutorial | Chapter-19 13 minutes, 19 seconds" [ref=e1352]: Basic Auth in Rest Assured API Automation Testing Tutorial | Chapter-19
+                      - generic [ref=e1354]: Testers Talk
+                - button "Action menu" [ref=e1358] [cursor=pointer]:
+                  - generic [ref=e1361]:
+                    - img
+              - generic [ref=e1362]:
+                - link "36 RoadMap To Learn API Testing 8 minutes, 55 seconds Testers Talk" [ref=e1363] [cursor=pointer]:
+                  - /url: /watch?v=ABqR45MLw5c&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=36&pp=iAQB
+                  - generic [ref=e1364]:
+                    - generic [ref=e1366]: "36"
+                    - link [ref=e1369]:
+                      - /url: /watch?v=ABqR45MLw5c&list=PLUeDIlio4THGaSQ_s5WFc2Mo7Ikne2kA5&index=36&pp=iAQB
+                    - generic [ref=e1371]:
+                      - heading "RoadMap To Learn API Testing 8 minutes, 55 seconds" [level=4] [ref=e1372]:
+                        - generic "RoadMap To Learn API Testing 8 minutes, 55 seconds" [ref=e1373]: RoadMap To Learn API Testing
+                      - generic [ref=e1375]: Testers Talk
+                - button "Action menu" [ref=e1379] [cursor=pointer]:
+                  - generic [ref=e1382]:
+                    - img
+          - generic [ref=e1385]:
+            - generic [ref=e1387] [cursor=pointer]:
+              - link [ref=e1388]:
+                - /url: /watch?v=o9KJhGHl49M
+                - generic [ref=e1394]: 4:06:41
+              - generic [ref=e1396]:
+                - generic [ref=e1397]:
+                  - heading "REST Assured API Testing Tutorial Crash Course 2024 4 hours, 6 minutes" [level=3] [ref=e1398]:
+                    - link "REST Assured API Testing Tutorial Crash Course 2024 4 hours, 6 minutes" [ref=e1399]:
+                      - /url: /watch?v=o9KJhGHl49M
+                      - text: REST Assured API Testing Tutorial Crash Course 2024
+                  - generic [ref=e1401]:
+                    - generic [ref=e1403]: Testers Talk
+                    - generic [ref=e1404]:
+                      - generic [ref=e1405]: 51K views
+                      - generic [ref=e1406]: •
+                      - generic [ref=e1407]: 2 years ago
+                - button "More actions" [ref=e1410]:
+                  - generic [ref=e1414]:
+                    - img
+            - generic [ref=e1419] [cursor=pointer]:
+              - link [ref=e1420]:
+                - /url: /watch?v=BBQrv8RAG0Y
+                - generic [ref=e1426]: 3:27:51
+              - generic [ref=e1428]:
+                - generic [ref=e1429]:
+                  - 'heading "API Testing Using Postman: Complete Crash Course for Beginners 3 hours, 27 minutes" [level=3] [ref=e1430]':
+                    - 'link "API Testing Using Postman: Complete Crash Course for Beginners 3 hours, 27 minutes" [ref=e1431]':
+                      - /url: /watch?v=BBQrv8RAG0Y
+                      - text: "API Testing Using Postman: Complete Crash Course for Beginners"
+                  - generic [ref=e1433]:
+                    - generic [ref=e1435]:
+                      - text: Mukesh otwani
+                      - img [ref=e1438]:
+                        - generic [ref=e1440]:
+                          - img
+                    - generic [ref=e1441]:
+                      - generic [ref=e1442]: 163K views
+                      - generic [ref=e1443]: •
+                      - generic [ref=e1444]: 2 years ago
+                - button "More actions" [ref=e1447]:
+                  - generic [ref=e1451]:
+                    - img
+            - generic [ref=e1456] [cursor=pointer]:
+              - link [ref=e1457]:
+                - /url: /watch?v=IDYvTGa2bT0
+                - generic [ref=e1463]: 45:54
+              - generic [ref=e1465]:
+                - generic [ref=e1466]:
+                  - heading "Master Telugu REST API in 2024 Without Failing 45 minutes" [level=3] [ref=e1467]:
+                    - link "Master Telugu REST API in 2024 Without Failing 45 minutes" [ref=e1468]:
+                      - /url: /watch?v=IDYvTGa2bT0
+                      - text: Master Telugu REST API in 2024 Without Failing
+                  - generic [ref=e1470]:
+                    - generic [ref=e1472]:
+                      - text: telugu web guru
+                      - img [ref=e1475]:
+                        - generic [ref=e1477]:
+                          - img
+                    - generic [ref=e1478]:
+                      - generic [ref=e1479]: 68K views
+                      - generic [ref=e1480]: •
+                      - generic [ref=e1481]: 2 years ago
+                - button "More actions" [ref=e1484]:
+                  - generic [ref=e1488]:
+                    - img
+            - generic [ref=e1493] [cursor=pointer]:
+              - link [ref=e1494]:
+                - /url: /watch?v=jjAf7Im0A8Y
+                - generic [ref=e1500]: 2:04:38
+              - generic [ref=e1502]:
+                - generic [ref=e1503]:
+                  - 'heading "Tableau End-to-End Project: From Raw Data to Dashboard #Tableau #DataProject 2 hours, 4 minutes" [level=3] [ref=e1504]':
+                    - 'link "Tableau End-to-End Project: From Raw Data to Dashboard #Tableau #DataProject 2 hours, 4 minutes" [ref=e1505]':
+                      - /url: /watch?v=jjAf7Im0A8Y
+                      - text: "Tableau End-to-End Project: From Raw Data to Dashboard #Tableau #DataProject"
+                  - generic [ref=e1507]:
+                    - generic [ref=e1509]: Euron
+                    - generic [ref=e1510]:
+                      - generic [ref=e1511]: 1 view
+                      - generic [ref=e1512]: •
+                      - generic [ref=e1513]: 24 minutes ago
+                    - generic [ref=e1518]: New
+                - button "More actions" [ref=e1521]:
+                  - generic [ref=e1525]:
+                    - img
+            - generic [ref=e1530] [cursor=pointer]:
+              - link [ref=e1531]:
+                - /url: /watch?v=wEOLZq-7DYs
+                - generic [ref=e1537]: 1:35:56
+              - generic [ref=e1539]:
+                - generic [ref=e1540]:
+                  - heading "Learn Postman for API Testing (Step-by-Step Tutorial) 1 hour, 35 minutes" [level=3] [ref=e1541]:
+                    - link "Learn Postman for API Testing (Step-by-Step Tutorial) 1 hour, 35 minutes" [ref=e1542]:
+                      - /url: /watch?v=wEOLZq-7DYs
+                      - text: Learn Postman for API Testing (Step-by-Step Tutorial)
+                  - generic [ref=e1544]:
+                    - generic [ref=e1546]:
+                      - text: Automation Step by Step
+                      - img [ref=e1549]:
+                        - generic [ref=e1551]:
+                          - img
+                    - generic [ref=e1552]:
+                      - generic [ref=e1553]: 311K views
+                      - generic [ref=e1554]: •
+                      - generic [ref=e1555]: 1 year ago
+                - button "More actions" [ref=e1558]:
+                  - generic [ref=e1562]:
+                    - img
+            - generic [ref=e1567] [cursor=pointer]:
+              - link [ref=e1568]:
+                - /url: /watch?v=SoW2pBak1_Q
+                - generic [ref=e1574]: 3:31:26
+              - generic [ref=e1576]:
+                - generic [ref=e1577]:
+                  - heading "JMeter Full Course Masterclass | Step by Step for Beginners | Raghav Pal | 3 hours, 31 minutes" [level=3] [ref=e1578]:
+                    - link "JMeter Full Course Masterclass | Step by Step for Beginners | Raghav Pal | 3 hours, 31 minutes" [ref=e1579]:
+                      - /url: /watch?v=SoW2pBak1_Q
+                      - text: JMeter Full Course Masterclass | Step by Step for Beginners | Raghav Pal |
+                  - generic [ref=e1581]:
+                    - generic [ref=e1583]:
+                      - text: Automation Step by Step
+                      - img [ref=e1586]:
+                        - generic [ref=e1588]:
+                          - img
+                    - generic [ref=e1589]:
+                      - generic [ref=e1590]: 1.1M views
+                      - generic [ref=e1591]: •
+                      - generic [ref=e1592]: 4 years ago
+                - button "More actions" [ref=e1595]:
+                  - generic [ref=e1599]:
+                    - img
+            - generic [ref=e1604] [cursor=pointer]:
+              - link [ref=e1605]:
+                - /url: /watch?v=_iuxZygxz98
+                - generic [ref=e1611]: 4:55:54
+              - generic [ref=e1613]:
+                - generic [ref=e1614]:
+                  - heading "Laravel API for Beginners - A Complete Guide 4 hours, 55 minutes" [level=3] [ref=e1615]:
+                    - link "Laravel API for Beginners - A Complete Guide 4 hours, 55 minutes" [ref=e1616]:
+                      - /url: /watch?v=_iuxZygxz98
+                      - text: Laravel API for Beginners - A Complete Guide
+                  - generic [ref=e1618]:
+                    - generic [ref=e1620]: The Codeholic
+                    - generic [ref=e1621]:
+                      - generic [ref=e1622]: 21K views
+                      - generic [ref=e1623]: •
+                      - generic [ref=e1624]: 1 month ago
+                - button "More actions" [ref=e1627]:
+                  - generic [ref=e1631]:
+                    - img
+            - generic [ref=e1636] [cursor=pointer]:
+              - link [ref=e1637]:
+                - /url: /watch?v=zp5Jh2FIpF0
+                - generic [ref=e1643]: 4:16:01
+              - generic [ref=e1645]:
+                - generic [ref=e1646]:
+                  - heading "Postman API Test Automation for Beginners 4 hours, 16 minutes" [level=3] [ref=e1647]:
+                    - link "Postman API Test Automation for Beginners 4 hours, 16 minutes" [ref=e1648]:
+                      - /url: /watch?v=zp5Jh2FIpF0
+                      - text: Postman API Test Automation for Beginners
+                  - generic [ref=e1650]:
+                    - generic [ref=e1652]:
+                      - text: freeCodeCamp.org
+                      - img [ref=e1655]:
+                        - generic [ref=e1657]:
+                          - img
+                    - generic [ref=e1658]:
+                      - generic [ref=e1659]: 259K views
+                      - generic [ref=e1660]: •
+                      - generic [ref=e1661]: 2 years ago
+                - button "More actions" [ref=e1664]:
+                  - generic [ref=e1668]:
+                    - img
+            - generic [ref=e1673] [cursor=pointer]:
+              - link [ref=e1674]:
+                - /url: /watch?v=gLptmcuCx6Q
+                - generic [ref=e1680]: 18:58
+              - generic [ref=e1682]:
+                - generic [ref=e1683]:
+                  - heading "What is CI/CD Pipeline? | Simply Explained by Shradha Ma'am 18 minutes" [level=3] [ref=e1684]:
+                    - link "What is CI/CD Pipeline? | Simply Explained by Shradha Ma'am 18 minutes" [ref=e1685]:
+                      - /url: /watch?v=gLptmcuCx6Q
+                      - text: What is CI/CD Pipeline? | Simply Explained by Shradha Ma'am
+                  - generic [ref=e1687]:
+                    - generic [ref=e1689]:
+                      - text: Apna College
+                      - img [ref=e1692]:
+                        - generic [ref=e1694]:
+                          - img
+                    - generic [ref=e1695]:
+                      - generic [ref=e1696]: 388K views
+                      - generic [ref=e1697]: •
+                      - generic [ref=e1698]: 2 months ago
+                - button "More actions" [ref=e1701]:
+                  - generic [ref=e1705]:
+                    - img
+            - generic [ref=e1710] [cursor=pointer]:
+              - link [ref=e1711]:
+                - /url: /watch?v=YJQNfHDG6lc
+                - generic [ref=e1717]: 38:01
+              - generic [ref=e1719]:
+                - generic [ref=e1720]:
+                  - heading "Postman Tutorial For Beginners in Telugu | Every Developer Must Know! 38 minutes" [level=3] [ref=e1721]:
+                    - link "Postman Tutorial For Beginners in Telugu | Every Developer Must Know! 38 minutes" [ref=e1722]:
+                      - /url: /watch?v=YJQNfHDG6lc
+                      - text: Postman Tutorial For Beginners in Telugu | Every Developer Must Know!
+                  - generic [ref=e1724]:
+                    - generic [ref=e1726]: Tech Jashwanth
+                    - generic [ref=e1727]:
+                      - generic [ref=e1728]: 7.1K views
+                      - generic [ref=e1729]: •
+                      - generic [ref=e1730]: 1 month ago
+                - button "More actions" [ref=e1733]:
+                  - generic [ref=e1737]:
+                    - img
+            - generic [ref=e1742] [cursor=pointer]:
+              - link [ref=e1743]:
+                - /url: /watch?v=aprMenLN8aY
+                - generic [ref=e1749]: 2:32:25
+              - generic [ref=e1751]:
+                - generic [ref=e1752]:
+                  - heading "API Testing Automation + Java + BDD Framework + Cucumber + Rest Assured + Maven in Intellij 2 hours, 32 minutes" [level=3] [ref=e1753]:
+                    - link "API Testing Automation + Java + BDD Framework + Cucumber + Rest Assured + Maven in Intellij 2 hours, 32 minutes" [ref=e1754]:
+                      - /url: /watch?v=aprMenLN8aY
+                      - text: API Testing Automation + Java + BDD Framework + Cucumber + Rest Assured + Maven in Intellij
+                  - generic [ref=e1756]:
+                    - generic [ref=e1758]: Ace Automation Academy
+                    - generic [ref=e1759]:
+                      - generic [ref=e1760]: 56K views
+                      - generic [ref=e1761]: •
+                      - generic [ref=e1762]: 2 years ago
+                - button "More actions" [ref=e1765]:
+                  - generic [ref=e1769]:
+                    - img
+            - generic [ref=e1774] [cursor=pointer]:
+              - link [ref=e1775]:
+                - /url: /watch?v=qT17f5X4wBQ
+                - generic [ref=e1781]: 20:03
+              - generic [ref=e1783]:
+                - generic [ref=e1784]:
+                  - 'heading "Real time API Mock Interview 2023 | 3- 4 Years Experience| How to solve API Issues | Video 110 #api 20 minutes" [level=3] [ref=e1785]':
+                    - 'link "Real time API Mock Interview 2023 | 3- 4 Years Experience| How to solve API Issues | Video 110 #api 20 minutes" [ref=e1786]':
+                      - /url: /watch?v=qT17f5X4wBQ
+                      - text: "Real time API Mock Interview 2023 | 3- 4 Years Experience| How to solve API Issues | Video 110 #api"
+                  - generic [ref=e1788]:
+                    - generic [ref=e1790]: Techqflow Software Solutions
+                    - generic [ref=e1791]:
+                      - generic [ref=e1792]: 68K views
+                      - generic [ref=e1793]: •
+                      - generic [ref=e1794]: 2 years ago
+                - button "More actions" [ref=e1797]:
+                  - generic [ref=e1801]:
+                    - img
+            - generic [ref=e1806] [cursor=pointer]:
+              - link [ref=e1807]:
+                - /url: /watch?v=I0RQaztZulA
+                - generic [ref=e1813]: 1:36:22
+              - generic [ref=e1815]:
+                - generic [ref=e1816]:
+                  - heading "Postman API Testing Tutorial 🔥 1 hour, 36 minutes" [level=3] [ref=e1817]:
+                    - link "Postman API Testing Tutorial 🔥 1 hour, 36 minutes" [ref=e1818]:
+                      - /url: /watch?v=I0RQaztZulA
+                      - text: Postman API Testing Tutorial 🔥
+                  - generic [ref=e1820]:
+                    - generic [ref=e1822]: Automate with Rakesh
+                    - generic [ref=e1823]:
+                      - generic [ref=e1824]: 29K views
+                      - generic [ref=e1825]: •
+                      - generic [ref=e1826]: 4 months ago
+                - button "More actions" [ref=e1829]:
+                  - generic [ref=e1833]:
+                    - img
+            - generic [ref=e1838] [cursor=pointer]:
+              - link [ref=e1839]:
+                - /url: /watch?v=pBASqUbZgkY&pp=ugUEEgJlbtIHCQlNCgGHKiGM7w%3D%3D
+                - generic [ref=e1845]: 9:54
+              - generic [ref=e1847]:
+                - generic [ref=e1848]:
+                  - heading "Every Type Of API Explained in 9 Minutes ! Part 01 9 minutes, 54 seconds" [level=3] [ref=e1849]:
+                    - link "Every Type Of API Explained in 9 Minutes ! Part 01 9 minutes, 54 seconds" [ref=e1850]:
+                      - /url: /watch?v=pBASqUbZgkY&pp=ugUEEgJlbtIHCQlNCgGHKiGM7w%3D%3D
+                      - text: Every Type Of API Explained in 9 Minutes ! Part 01
+                  - generic [ref=e1852]:
+                    - generic [ref=e1854]: Codist
+                    - generic [ref=e1855]:
+                      - generic [ref=e1856]: 554K views
+                      - generic [ref=e1857]: •
+                      - generic [ref=e1858]: 2 months ago
+                - button "More actions" [ref=e1861]:
+                  - generic [ref=e1865]:
+                    - img
+            - generic [ref=e1870] [cursor=pointer]:
+              - link [ref=e1871]:
+                - /url: /watch?v=VkfhINL956U
+                - generic [ref=e1877]: 1:03:19
+              - generic [ref=e1879]:
+                - generic [ref=e1880]:
+                  - 'heading "LIVE API Testing Project #1 - From Start to Finish( Add to Resume) 1 hour, 3 minutes" [level=3] [ref=e1881]':
+                    - 'link "LIVE API Testing Project #1 - From Start to Finish( Add to Resume) 1 hour, 3 minutes" [ref=e1882]':
+                      - /url: /watch?v=VkfhINL956U
+                      - text: "LIVE API Testing Project #1 - From Start to Finish( Add to Resume)"
+                  - generic [ref=e1884]:
+                    - generic [ref=e1886]:
+                      - text: The Testing Academy
+                      - img [ref=e1889]:
+                        - generic [ref=e1891]:
+                          - img
+                    - generic [ref=e1892]:
+                      - generic [ref=e1893]: 215K views
+                      - generic [ref=e1894]: •
+                      - generic [ref=e1895]: Streamed 2 years ago
+                - button "More actions" [ref=e1898]:
+                  - generic [ref=e1902]:
+                    - img
+            - generic [ref=e1907] [cursor=pointer]:
+              - link [ref=e1908]:
+                - /url: /watch?v=oJV5whmzfZI
+                - generic [ref=e1914]: 5:04:18
+              - generic [ref=e1916]:
+                - generic [ref=e1917]:
+                  - heading "Cypress Tutorial Full Course | Cypress Automation | Learn Cypress in 5 Hrs 5 hours, 4 minutes" [level=3] [ref=e1918]:
+                    - link "Cypress Tutorial Full Course | Cypress Automation | Learn Cypress in 5 Hrs 5 hours, 4 minutes" [ref=e1919]:
+                      - /url: /watch?v=oJV5whmzfZI
+                      - text: Cypress Tutorial Full Course | Cypress Automation | Learn Cypress in 5 Hrs
+                  - generic [ref=e1921]:
+                    - generic [ref=e1923]: Testers Talk
+                    - generic [ref=e1924]:
+                      - generic [ref=e1925]: 71K views
+                      - generic [ref=e1926]: •
+                      - generic [ref=e1927]: 2 years ago
+                - button "More actions" [ref=e1930]:
+                  - generic [ref=e1934]:
+                    - img
+            - generic [ref=e1939] [cursor=pointer]:
+              - link [ref=e1940]:
+                - /url: /watch?v=taSFj5Zl8Wo
+                - generic [ref=e1946]: 1:04:39
+              - generic [ref=e1948]:
+                - generic [ref=e1949]:
+                  - heading "Part 1 - API Testing Interview Questions & Answers 1 hour, 4 minutes" [level=3] [ref=e1950]:
+                    - link "Part 1 - API Testing Interview Questions & Answers 1 hour, 4 minutes" [ref=e1951]:
+                      - /url: /watch?v=taSFj5Zl8Wo
+                      - text: Part 1 - API Testing Interview Questions & Answers
+                  - generic [ref=e1953]:
+                    - generic [ref=e1955]:
+                      - text: Naveen AutomationLabs
+                      - img [ref=e1958]:
+                        - generic [ref=e1960]:
+                          - img
+                    - generic [ref=e1961]:
+                      - generic [ref=e1962]: 259K views
+                      - generic [ref=e1963]: •
+                      - generic [ref=e1964]: 3 years ago
+                - button "More actions" [ref=e1967]:
+                  - generic [ref=e1971]:
+                    - img
+            - generic [ref=e1976] [cursor=pointer]:
+              - link [ref=e1977]:
+                - /url: /watch?v=pq20Gd4LXeI
+                - generic [ref=e1983]: 8:17:31
+              - generic [ref=e1985]:
+                - generic [ref=e1986]:
+                  - heading "Playwright Automation Tutorial for Beginners from Scratch 8 hours, 17 minutes" [level=3] [ref=e1987]:
+                    - link "Playwright Automation Tutorial for Beginners from Scratch 8 hours, 17 minutes" [ref=e1988]:
+                      - /url: /watch?v=pq20Gd4LXeI
+                      - text: Playwright Automation Tutorial for Beginners from Scratch
+                  - generic [ref=e1990]:
+                    - generic [ref=e1992]:
+                      - text: Mukesh otwani
+                      - img [ref=e1995]:
+                        - generic [ref=e1997]:
+                          - img
+                    - generic [ref=e1998]:
+                      - generic [ref=e1999]: 166K views
+                      - generic [ref=e2000]: •
+                      - generic [ref=e2001]: 1 year ago
+                - button "More actions" [ref=e2004]:
+                  - generic [ref=e2008]:
+                    - img
+            - generic [ref=e2013] [cursor=pointer]:
+              - link [ref=e2014]:
+                - /url: /watch?v=vCJVFnepECc
+                - generic [ref=e2020]: 1:28:06
+              - generic [ref=e2022]:
+                - generic [ref=e2023]:
+                  - 'heading "Session1: Introduction to API Testing 1 hour, 28 minutes" [level=3] [ref=e2024]':
+                    - 'link "Session1: Introduction to API Testing 1 hour, 28 minutes" [ref=e2025]':
+                      - /url: /watch?v=vCJVFnepECc
+                      - text: "Session1: Introduction to API Testing"
+                  - generic [ref=e2027]:
+                    - generic [ref=e2029]:
+                      - text: SDET- QA
+                      - img [ref=e2032]:
+                        - generic [ref=e2034]:
+                          - img
+                    - generic [ref=e2035]:
+                      - generic [ref=e2036]: 1.5M views
+                      - generic [ref=e2037]: •
+                      - generic [ref=e2038]: 3 years ago
+                - button "More actions" [ref=e2041]:
+                  - generic [ref=e2045]:
+                    - img
+            - generic [ref=e2050] [cursor=pointer]:
+              - link [ref=e2051]:
+                - /url: /watch?v=VywxIQ2ZXw4
+                - generic [ref=e2057]: 2:09:38
+              - generic [ref=e2059]:
+                - generic [ref=e2060]:
+                  - heading "Postman Beginner's Course - API Testing 2 hours, 9 minutes" [level=3] [ref=e2061]:
+                    - link "Postman Beginner's Course - API Testing 2 hours, 9 minutes" [ref=e2062]:
+                      - /url: /watch?v=VywxIQ2ZXw4
+                      - text: Postman Beginner's Course - API Testing
+                  - generic [ref=e2064]:
+                    - generic [ref=e2066]:
+                      - text: freeCodeCamp.org
+                      - img [ref=e2069]:
+                        - generic [ref=e2071]:
+                          - img
+                    - generic [ref=e2072]:
+                      - generic [ref=e2073]: 2.9M views
+                      - generic [ref=e2074]: •
+                      - generic [ref=e2075]: 4 years ago
+                - button "More actions" [ref=e2078]:
+                  - generic [ref=e2082]:
+                    - img
+    - text: · • • • • •
+```

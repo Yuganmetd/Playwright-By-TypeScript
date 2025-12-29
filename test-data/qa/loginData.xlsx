@@ -1,0 +1,5 @@
+TestCase,Username,Password,ExpectedResult,ErrorMessage
+Valid Login,student,Password123,success,
+Invalid Password,student,admin,failure,Your password is invalid!
+Empty Username,'’,Password123,failure,Your username is invalid!
+Empty Password,student,'’,failure,Your password is invalid!

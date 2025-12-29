@@ -1,0 +1,30 @@
+[
+  {
+    "TestCase": "Valid Login",
+    "Username": "student",
+    "Password": "Password123",
+    "ExpectedResult": "success",
+    "ErrorMessage": ""
+  },
+  {
+    "TestCase": "Invalid Password",
+    "Username": "student",
+    "Password": "admin",
+    "ExpectedResult": "failure",
+    "ErrorMessage": "Your password is invalid!"
+  },
+  {
+    "TestCase": "Empty Username",
+    "Username": "",
+    "Password": "Password123",
+    "ExpectedResult": "failure",
+    "ErrorMessage": "Your username is invalid!"
+  },
+  {
+    "TestCase": "Empty Password",
+    "Username": "student",
+    "Password": "",
+    "ExpectedResult": "failure",
+    "ErrorMessage": "Your password is invalid!"
+  }
+]
