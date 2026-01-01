@@ -1,7 +1,7 @@
 {
   "config": {
-    "configFile": "/home/gaian/Videos/Playwright/playwright.config.ts",
-    "rootDir": "/home/gaian/Videos/Playwright/tests",
+    "configFile": "/home/gaian/Videos/Playwright-local/Playwright-By-TypeScript/playwright.config.ts",
+    "rootDir": "/home/gaian/Videos/Playwright-local/Playwright-By-TypeScript/tests",
     "forbidOnly": false,
     "fullyParallel": true,
     "globalSetup": null,
@@ -20,7 +20,7 @@
         null
       ],
       [
-        "/home/gaian/Videos/Playwright/node_modules/allure-playwright/dist/cjs/index.js",
+        "/home/gaian/Videos/Playwright-local/Playwright-By-TypeScript/node_modules/allure-playwright/dist/cjs/index.js",
         null
       ],
       [
@@ -47,7 +47,7 @@
     "quiet": false,
     "projects": [
       {
-        "outputDir": "/home/gaian/Videos/Playwright/test-results",
+        "outputDir": "/home/gaian/Videos/Playwright-local/Playwright-By-TypeScript/test-results",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
@@ -55,7 +55,7 @@
         },
         "id": "chromium",
         "name": "chromium",
-        "testDir": "/home/gaian/Videos/Playwright/tests",
+        "testDir": "/home/gaian/Videos/Playwright-local/Playwright-By-TypeScript/tests",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -73,14 +73,14 @@
   },
   "suites": [
     {
-      "title": "Chapter05/RunTest_Basedon_ENV.Test.spec.ts",
-      "file": "Chapter05/RunTest_Basedon_ENV.Test.spec.ts",
+      "title": "Chapter06/MOCK_API_FROM_HARFile_Test.spec.ts",
+      "file": "Chapter06/MOCK_API_FROM_HARFile_Test.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Page Object Model in PlayWright",
-          "ok": false,
+          "title": "MOCK API from HAR file in PlayWright Typescript Test",
+          "ok": true,
           "tags": [],
           "tests": [
             {
@@ -91,75 +91,36 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 0,
+                  "workerIndex": 19,
                   "parallelIndex": 0,
-                  "status": "failed",
-                  "duration": 28712,
-                  "error": {
-                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"\u001b[7m#1 Playwright\u001b[27m Tutorial Full Course 202\u001b[7m5 | Playwright Testing Tutorial\u001b[27m - YouTube\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mAPI Testing Postman\u001b[27m Tutorial Full Course 202\u001b[7m4\u001b[27m - YouTube\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveTitle\" with timeout 10000ms\u001b[22m\n\u001b[2m    3 × unexpected value \"YouTube\"\u001b[22m\n\u001b[2m    8 × unexpected value \"API Testing Postman Tutorial Full Course 2024 - YouTube\"\u001b[22m\n",
-                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"\u001b[7m#1 Playwright\u001b[27m Tutorial Full Course 202\u001b[7m5 | Playwright Testing Tutorial\u001b[27m - YouTube\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mAPI Testing Postman\u001b[27m Tutorial Full Course 202\u001b[7m4\u001b[27m - YouTube\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveTitle\" with timeout 10000ms\u001b[22m\n\u001b[2m    3 × unexpected value \"YouTube\"\u001b[22m\n\u001b[2m    8 × unexpected value \"API Testing Postman Tutorial Full Course 2024 - YouTube\"\u001b[22m\n\n    at PlayListPage.validatePageTitle (/home/gaian/Videos/Playwright/src/pages/PlayListPage.ts:19:33)\n    at /home/gaian/Videos/Playwright/tests/Chapter05/RunTest_Basedon_ENV.Test.spec.ts:8:24",
-                    "location": {
-                      "file": "/home/gaian/Videos/Playwright/src/pages/PlayListPage.ts",
-                      "column": 33,
-                      "line": 19
-                    },
-                    "snippet": "\u001b[90m   at \u001b[39m../src/pages/PlayListPage.ts:19\n\n\u001b[0m \u001b[90m 17 |\u001b[39m\n \u001b[90m 18 |\u001b[39m     \u001b[36masync\u001b[39m validatePageTitle (title\u001b[33m:\u001b[39mstring){\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 19 |\u001b[39m         \u001b[36mawait\u001b[39m expect(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage)\u001b[33m.\u001b[39mtoHaveTitle(title)\n \u001b[90m    |\u001b[39m                                 \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 20 |\u001b[39m     }\n \u001b[90m 21 |\u001b[39m }\u001b[0m"
-                  },
-                  "errors": [
-                    {
-                      "location": {
-                        "file": "/home/gaian/Videos/Playwright/src/pages/PlayListPage.ts",
-                        "column": 33,
-                        "line": 19
-                      },
-                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"\u001b[7m#1 Playwright\u001b[27m Tutorial Full Course 202\u001b[7m5 | Playwright Testing Tutorial\u001b[27m - YouTube\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mAPI Testing Postman\u001b[27m Tutorial Full Course 202\u001b[7m4\u001b[27m - YouTube\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveTitle\" with timeout 10000ms\u001b[22m\n\u001b[2m    3 × unexpected value \"YouTube\"\u001b[22m\n\u001b[2m    8 × unexpected value \"API Testing Postman Tutorial Full Course 2024 - YouTube\"\u001b[22m\n\n\n\u001b[90m   at \u001b[39m../src/pages/PlayListPage.ts:19\n\n\u001b[0m \u001b[90m 17 |\u001b[39m\n \u001b[90m 18 |\u001b[39m     \u001b[36masync\u001b[39m validatePageTitle (title\u001b[33m:\u001b[39mstring){\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 19 |\u001b[39m         \u001b[36mawait\u001b[39m expect(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage)\u001b[33m.\u001b[39mtoHaveTitle(title)\n \u001b[90m    |\u001b[39m                                 \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 20 |\u001b[39m     }\n \u001b[90m 21 |\u001b[39m }\u001b[0m\n\u001b[2m    at PlayListPage.validatePageTitle (/home/gaian/Videos/Playwright/src/pages/PlayListPage.ts:19:33)\u001b[22m\n\u001b[2m    at /home/gaian/Videos/Playwright/tests/Chapter05/RunTest_Basedon_ENV.Test.spec.ts:8:24\u001b[22m"
-                    }
-                  ],
-                  "stdout": [
-                    {
-                      "text": "Global before is running...\n"
-                    },
-                    {
-                      "text": "Tests are running in dev env.\n"
-                    },
-                    {
-                      "text": "Global afterEach is running...\n"
-                    }
-                  ],
+                  "status": "passed",
+                  "duration": 1176,
+                  "errors": [],
+                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-12-29T09:47:34.895Z",
+                  "startTime": "2026-01-01T14:09:03.246Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "/home/gaian/Videos/Playwright/test-results/Chapter05-RunTest_Basedon_-85fbd--Object-Model-in-PlayWright-chromium/video.webm"
-                    },
-                    {
-                      "name": "error-context",
-                      "contentType": "text/markdown",
-                      "path": "/home/gaian/Videos/Playwright/test-results/Chapter05-RunTest_Basedon_-85fbd--Object-Model-in-PlayWright-chromium/error-context.md"
+                      "path": "/home/gaian/Videos/Playwright-local/Playwright-By-TypeScript/test-results/Chapter06-MOCK_API_FROM_HA-15078--PlayWright-Typescript-Test-chromium/video.webm"
                     },
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "/home/gaian/Videos/Playwright/test-results/Chapter05-RunTest_Basedon_-85fbd--Object-Model-in-PlayWright-chromium/trace.zip"
+                      "path": "/home/gaian/Videos/Playwright-local/Playwright-By-TypeScript/test-results/Chapter06-MOCK_API_FROM_HA-15078--PlayWright-Typescript-Test-chromium/trace.zip"
                     }
-                  ],
-                  "errorLocation": {
-                    "file": "/home/gaian/Videos/Playwright/src/pages/PlayListPage.ts",
-                    "column": 33,
-                    "line": 19
-                  }
+                  ]
                 }
               ],
-              "status": "unexpected"
+              "status": "expected"
             }
           ],
-          "id": "50b9f0c0161204a88f71-7de3c805453272eb078e",
-          "file": "Chapter05/RunTest_Basedon_ENV.Test.spec.ts",
-          "line": 4,
+          "id": "4a1251c77ffc9b8b209f-1c9c81aa34a215f10cdf",
+          "file": "Chapter06/MOCK_API_FROM_HARFile_Test.spec.ts",
+          "line": 3,
           "column": 5
         }
       ]
@@ -167,11 +128,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-12-29T09:47:32.540Z",
-    "duration": 33809.092000000004,
-    "expected": 0,
+    "startTime": "2026-01-01T14:09:01.194Z",
+    "duration": 3817.079999998212,
+    "expected": 1,
     "skipped": 0,
-    "unexpected": 1,
+    "unexpected": 0,
     "flaky": 0
   }
 }

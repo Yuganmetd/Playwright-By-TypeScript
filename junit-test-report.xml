@@ -1,57 +1,11 @@
-<testsuites id="" name="" tests="1" failures="1" skipped="0" errors="0" time="33.80909200000001">
-<testsuite name="Chapter05/RunTest_Basedon_ENV.Test.spec.ts" timestamp="2025-12-29T09:47:33.779Z" hostname="chromium" tests="1" failures="1" skipped="0" time="28.712" errors="0">
-<testcase name="Page Object Model in PlayWright" classname="Chapter05/RunTest_Basedon_ENV.Test.spec.ts" time="28.712">
-<failure message="RunTest_Basedon_ENV.Test.spec.ts:4:5 Page Object Model in PlayWright" type="FAILURE">
-<![CDATA[  [chromium] › Chapter05/RunTest_Basedon_ENV.Test.spec.ts:4:5 › Page Object Model in PlayWright ────
-
-    Error: expect(page).toHaveTitle(expected) failed
-
-    Expected: "#1 Playwright Tutorial Full Course 2025 | Playwright Testing Tutorial - YouTube"
-    Received: "API Testing Postman Tutorial Full Course 2024 - YouTube"
-    Timeout:  10000ms
-
-    Call log:
-      - Expect "toHaveTitle" with timeout 10000ms
-        3 × unexpected value "YouTube"
-        8 × unexpected value "API Testing Postman Tutorial Full Course 2024 - YouTube"
-
-
-       at ../src/pages/PlayListPage.ts:19
-
-      17 |
-      18 |     async validatePageTitle (title:string){
-    > 19 |         await expect(this.page).toHaveTitle(title)
-         |                                 ^
-      20 |     }
-      21 | }
-        at PlayListPage.validatePageTitle (/home/gaian/Videos/Playwright/src/pages/PlayListPage.ts:19:33)
-        at /home/gaian/Videos/Playwright/tests/Chapter05/RunTest_Basedon_ENV.Test.spec.ts:8:24
-
-    attachment #1: video (video/webm) ──────────────────────────────────────────────────────────────
-    ../test-results/Chapter05-RunTest_Basedon_-85fbd--Object-Model-in-PlayWright-chromium/video.webm
-    ────────────────────────────────────────────────────────────────────────────────────────────────
-
-    Error Context: ../test-results/Chapter05-RunTest_Basedon_-85fbd--Object-Model-in-PlayWright-chromium/error-context.md
-
-    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
-    ../test-results/Chapter05-RunTest_Basedon_-85fbd--Object-Model-in-PlayWright-chromium/trace.zip
-    Usage:
-
-        npx playwright show-trace ../test-results/Chapter05-RunTest_Basedon_-85fbd--Object-Model-in-PlayWright-chromium/trace.zip
-
-    ────────────────────────────────────────────────────────────────────────────────────────────────
-]]>
-</failure>
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="3.817079999998212">
+<testsuite name="Chapter06/MOCK_API_FROM_HARFile_Test.spec.ts" timestamp="2026-01-01T14:09:02.253Z" hostname="chromium" tests="1" failures="0" skipped="0" time="1.176" errors="0">
+<testcase name="MOCK API from HAR file in PlayWright Typescript Test" classname="Chapter06/MOCK_API_FROM_HARFile_Test.spec.ts" time="1.176">
 <system-out>
-<![CDATA[Global before is running...
-Tests are running in dev env.
-Global afterEach is running...
+<![CDATA[
+[[ATTACHMENT|test-results/Chapter06-MOCK_API_FROM_HA-15078--PlayWright-Typescript-Test-chromium/video.webm]]
 
-[[ATTACHMENT|test-results/Chapter05-RunTest_Basedon_-85fbd--Object-Model-in-PlayWright-chromium/video.webm]]
-
-[[ATTACHMENT|test-results/Chapter05-RunTest_Basedon_-85fbd--Object-Model-in-PlayWright-chromium/error-context.md]]
-
-[[ATTACHMENT|test-results/Chapter05-RunTest_Basedon_-85fbd--Object-Model-in-PlayWright-chromium/trace.zip]]
+[[ATTACHMENT|test-results/Chapter06-MOCK_API_FROM_HA-15078--PlayWright-Typescript-Test-chromium/trace.zip]]
 ]]>
 </system-out>
 </testcase>

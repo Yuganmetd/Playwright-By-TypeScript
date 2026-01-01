@@ -1,0 +1,11 @@
+{
+    "firstname": "Playwright Automation by Testers Talk",
+    "lastname": "Playwright with Typescript",
+    "totalprice": 1000,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2025-12-30",
+        "checkout": "2025-12-31"
+    },
+    "additionalneeds": "breakfast"
+}
